@@ -7,7 +7,7 @@
     <!-- DataTables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
     <!-- jQuery -->
-    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- PapaParse -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <!-- DataTables JS -->
@@ -29,10 +29,13 @@
         $(document).ready(function() {
             
             // Automatically load the CSV file for the current date
-            var currentDateFile = `stats_${getCurrentFormattedDate()}.csv`;
-            loadCSV(`/csv/${currentDateFile}`);
+            //var currentDateFile = `stats_${getCurrentFormattedDate()}.csv`;
+
             
-            $("#today-date").append(getCurrentFormattedDate());
+
+            //loadCSV(`/csv/${currentDateFile}`);
+            loadCSVForDate(0);
+            //$("#today-date").append(getCurrentFormattedDate());
             
         });
     </script>
