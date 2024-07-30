@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSV to Table</title>
+    <title>Last Stats Data</title>
     <!-- DataTables CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
     <!-- jQuery -->
@@ -14,7 +14,9 @@
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
 </head>
 <body>
-    <h1>STATS CSV</h1>
+    <h1>Last Stats Data</h1>
+
+    <h3><p id="today-date"><b>Updated :</b> </p></h3>
     <table id="csvTable" class="display" style="width:100%">
         <thead>
             <tr id="csvHeader"></tr>
@@ -24,37 +26,59 @@
 
     <script>
         $(document).ready(function() {
-            // Load CSV file
-            Papa.parse('/csv/set_stats.csv', {
-                download: true,
-                header: true,
-                complete: function(results) {
-                    // Get data
-                    var data = results.data;
-                    
-                    // Generate table header
-                    var headerHtml = '';
-                    var keys = Object.keys(data[0]);
-                    keys.forEach(function(key) {
-                        headerHtml += '<th>' + key + '</th>';
-                    });
-                    $('#csvHeader').html(headerHtml);
+            function getCurrentFormattedDate() {
+                const date = new Date();
+                const day = String(date.getDate()).padStart(2, '0');
+                const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are zero-based
+                const year = date.getFullYear();
+                return `${day}-${month}-${year}`;
+            }
 
-                    // Generate table body
-                    var bodyHtml = '';
-                    data.forEach(function(row) {
-                        bodyHtml += '<tr>';
+            function loadCSV(filePath) {
+                Papa.parse(filePath, {
+                    download: true,
+                    header: true,
+                    complete: function(results) {
+                        // Get data
+                        var data = results.data;
+                        
+                        // Clear the existing table
+                        $('#csvHeader').empty();
+                        $('#csvBody').empty();
+
+                        // Generate table header
+                        var headerHtml = '';
+                        var keys = Object.keys(data[0]);
                         keys.forEach(function(key) {
-                            bodyHtml += '<td>' + row[key] + '</td>';
+                            headerHtml += '<th>' + key + '</th>';
                         });
-                        bodyHtml += '</tr>';
-                    });
-                    $('#csvBody').html(bodyHtml);
+                        $('#csvHeader').html(headerHtml);
 
-                    // Initialize DataTable
-                    $('#csvTable').DataTable();
-                }
-            });
+                        // Generate table body
+                        var bodyHtml = '';
+                        data.forEach(function(row) {
+                            bodyHtml += '<tr>';
+                            keys.forEach(function(key) {
+                                bodyHtml += '<td>' + row[key] + '</td>';
+                            });
+                            bodyHtml += '</tr>';
+                        });
+                        $('#csvBody').html(bodyHtml);
+
+                        // Initialize DataTable
+                        $('#csvTable').DataTable();
+                    }
+                });
+            }
+
+            // Automatically load the CSV file for the current date
+            var currentDateFile = `stats_${getCurrentFormattedDate()}.csv`;
+            loadCSV(`/csv/${currentDateFile}`);
+            
+            $("#today-date").append(getCurrentFormattedDate());
+            
+
+            
         });
     </script>
 </body>
