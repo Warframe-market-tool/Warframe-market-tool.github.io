@@ -4,39 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Last Stats Data</title>
-    <!-- DataTables CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
     <!-- jQuery -->
     <script type="text/javascript" charset="utf8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <!-- PapaParse -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-    <!-- DataTables JS -->
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
     <script src="index.js"></script>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            cursor: pointer;
+        }
+        input {
+            margin-bottom: 10px;
+        }
+    </style>
+
 </head>
 <body>
     <h1>Last Stats Data</h1>
 
     <h3><p id="today-date"><b>Updated :</b> </p></h3>
-    <table id="csvTable" class="display" style="width:100%">
+    <!-- Input field for filtering -->
+    
+    <input type="text" id="filterInput" placeholder="Search by name..." onkeyup="filterTable()">
+
+    <!-- Table to display the data -->
+    <table id="jsonTable">
         <thead>
-            <tr id="csvHeader"></tr>
+            <tr>
+                <th onclick="sortTable('name')">Name</th>
+                <th onclick="sortTable('set_median')">Set Median</th>
+                <th onclick="sortTable('set_volume')">Set Volume</th>
+                <th onclick="sortTable('set_max_price')">Max Price</th>
+                <th onclick="sortTable('set_min_price')">Min Price</th>
+                <th onclick="sortTable('set_pieces_median')">Pieces Median</th>
+                <th onclick="sortTable('set_pieces_volume')">Pieces Volume</th>
+                <th onclick="sortTable('benefit')">Benefit</th>
+            </tr>
         </thead>
-        <tbody id="csvBody"></tbody>
+        <tbody></tbody>
     </table>
 
     <script>
         $(document).ready(function() {
-            
-            // Automatically load the CSV file for the current date
-            //var currentDateFile = `stats_${getCurrentFormattedDate()}.csv`;
-
-            
-
-            //loadCSV(`/csv/${currentDateFile}`);
             initializePage()
-            //$("#today-date").append(getCurrentFormattedDate());
-            
         });
     </script>
 </body>

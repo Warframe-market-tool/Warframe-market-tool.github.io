@@ -1,3 +1,5 @@
+var jsonData;
+var sortOrder = true; // True for ascending, false for descending
 function getCurrentFormattedDate(offsetDays = 0) {
     const date = new Date();
     date.setDate(date.getDate() + offsetDays);
@@ -7,42 +9,68 @@ function getCurrentFormattedDate(offsetDays = 0) {
     return `${day}-${month}-${year}`;
 }
 
-function loadCSV(filePath) {
-    Papa.parse(filePath, {
-        download: true,
-        header: true,
-        complete: function(results) {
-            // Get data
-            var data = results.data;
-            
-            // Clear the existing table
-            $('#csvHeader').empty();
-            $('#csvBody').empty();
+    
+// Function to render the JSON data in the table
+function renderTable(data) {
+    const tableBody = document.querySelector('#jsonTable tbody');
+    tableBody.innerHTML = ''; // Clear existing rows
 
-            // Generate table header
-            var headerHtml = '';
-            var keys = Object.keys(data[0]);
-            keys.forEach(function(key) {
-                headerHtml += '<th>' + key + '</th>';
-            });
-            $('#csvHeader').html(headerHtml);
+    data.forEach(item => {
+        const row = document.createElement('tr');
 
-            // Generate table body
-            var bodyHtml = '';
-            data.forEach(function(row) {
-                bodyHtml += '<tr>';
-                keys.forEach(function(key) {
-                    bodyHtml += '<td>' + row[key] + '</td>';
-                });
-                bodyHtml += '</tr>';
-            });
-            $('#csvBody').html(bodyHtml);
+        Object.values(item).forEach(value => {
+            const cell = document.createElement('td');
+            cell.textContent = value;
+            row.appendChild(cell);
+        });
 
-            // Initialize DataTable
-            $('#csvTable').DataTable();
-        }
+        tableBody.appendChild(row);
     });
 }
+
+function loadJson(filePath){
+
+   // Fetch the JSON data from the file
+   fetch(filePath)
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.text(); // Read as text first to debug
+    })
+    .then(text => {
+        console.log("Raw response text:", text); // Log the raw response text
+        jsonData = JSON.parse(text); // Parse the text as JSON
+        renderTable(jsonData);
+    })
+    .catch(error => {
+        console.error('Error loading JSON:', error);
+    });
+    
+
+}
+
+function filterTable() {
+        const filter = document.getElementById('filterInput').value.toLowerCase();
+        const filteredData = jsonData.filter(item => 
+            item.name.toLowerCase().includes(filter)
+        );
+        renderTable(filteredData);
+}
+
+// Function to sort the table by a specific key
+function sortTable(key) {
+    const sortedData = jsonData.sort((a, b) => {
+        if (sortOrder) {
+            return a[key] > b[key] ? 1 : -1;
+        } else {
+            return a[key] < b[key] ? 1 : -1;
+        }
+    });
+    sortOrder = !sortOrder; // Toggle sort order
+    renderTable(sortedData);
+}
+
 
 function fileExists(url, callback) {
     $.ajax({
@@ -57,25 +85,24 @@ function fileExists(url, callback) {
     });
 }
 
-function loadCSVForDate(offsetDays = 0) {
+function loadJsonForDate(offsetDays = 0) {
     const date = getCurrentFormattedDate(offsetDays);
-    const filePath = `/csv/stats_${date}.csv`;
+    const filePath = `/json/stats_${date}.json`;
     fileExists(filePath, function(exists) {
         if (exists) {
             $("#today-date").append(date);
-            loadCSV(filePath);
+            loadJson(filePath);
         } else if (offsetDays === 0) {
             // Try loading the file for the previous day if today's file doesn't exist
-            loadCSVForDate(-1);
+            loadJsonForDate(-1);
         } else {
             // If previous day's file also doesn't exist
-            $('#csvHeader').html('<th>No data available</th>');
-            $('#csvBody').html('<tr><td>No data available</td></tr>');
+            $('#jsonTable').html('<tr><td>No data available</td></tr>');
         }
     });
 }
 
 function initializePage() {
-    // Attempt to load the CSV file for the current date
-    loadCSVForDate(0);
+    // Attempt to load the Json file for the current date
+    loadJsonForDate(0);
 }
