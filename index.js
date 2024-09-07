@@ -39,7 +39,6 @@ function loadJson(filePath){
         return response.text(); // Read as text first to debug
     })
     .then(text => {
-        console.log("Raw response text:", text); // Log the raw response text
         jsonData = JSON.parse(text); // Parse the text as JSON
         renderTable(jsonData);
     })
