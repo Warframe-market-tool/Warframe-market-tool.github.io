@@ -87,7 +87,7 @@ function fileExists(url, callback) {
 
 function loadJsonForDate(offsetDays = 0) {
     const date = getCurrentFormattedDate(offsetDays);
-    const filePath = `/json/stats_${date}.json`;
+    const filePath = `/json/set-economy_stats_${date}.json`;
     fileExists(filePath, function(exists) {
         if (exists) {
             $("#today-date").append(date);
