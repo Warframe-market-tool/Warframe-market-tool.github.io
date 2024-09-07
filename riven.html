@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Last Stats Data</title>
+    <title>Riven stats Data</title>
     <link rel="stylesheet" href="styles.css">
     <!-- jQuery -->
     <script type="text/javascript" charset="utf8" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="index.js"></script>
-   
+    
+
 </head>
 <body>
-   
     <nav>
         <ul>
-            <li><a href="index.html" class="active">Set Stats</a></li>
-            <li><a href="riven.html">Riven Stats</a></li>
+            <li><a href="index.html">Set Stats</a></li>
+            <li><a href="riven.html" class="active">Riven Stats</a></li>
         </ul>
     </nav>
+
     <div class="content">
-        <h1>Last Stats Data</h1>
+        <h1>Last Rivens Data</h1>
         <h3><p id="today-date"><b>Updated :</b></p></h3>
         <!-- Input field for filtering -->
         <input type="text" id="filterInput" placeholder="Search by name..." onkeyup="filterTable()">
@@ -43,7 +44,7 @@
 
     <script>
         $(document).ready(function() {
-            initializeSet()
+            initializeRivens(); // Reuse the same initialization logic
         });
     </script>
 </body>

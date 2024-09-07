@@ -84,7 +84,7 @@ function fileExists(url, callback) {
     });
 }
 
-function loadJsonForDate(offsetDays = 0) {
+function loadSetJsonForDate(offsetDays = 0) {
     const date = getCurrentFormattedDate(offsetDays);
     const filePath = `/json/set-economy_stats_${date}.json`;
     fileExists(filePath, function(exists) {
@@ -101,7 +101,29 @@ function loadJsonForDate(offsetDays = 0) {
     });
 }
 
-function initializePage() {
+function loadRivenJsonForDate(offsetDays = 0) {
+    const date = getCurrentFormattedDate(offsetDays);
+    const filePath = `/json/rivens-economy_stats_${date}.json`;
+    fileExists(filePath, function(exists) {
+        if (exists) {
+            $("#today-date").append(date);
+            loadJson(filePath);
+        } else if (offsetDays === 0) {
+            // Try loading the file for the previous day if today's file doesn't exist
+            loadJsonForDate(-1);
+        } else {
+            // If previous day's file also doesn't exist
+            $('#jsonTable').html('<tr><td>No data available</td></tr>');
+        }
+    });
+}
+
+
+function initializeSet() {
     // Attempt to load the Json file for the current date
-    loadJsonForDate(0);
+    loadSetJsonForDate(0);
+}
+
+function initializeRivens(){
+    loadRivenJsonForDate(0);
 }
