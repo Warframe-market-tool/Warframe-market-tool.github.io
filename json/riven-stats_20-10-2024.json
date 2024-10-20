@@ -6,64 +6,56 @@
                       "type":  "positive",
                       "effect":  "Ammo Maximum",
                       "min":  35,
-                      "max":  75,
+                      "max":  1000,
                       "median":  35
                   },
                   {
                       "name":  "Phage",
                       "type":  "negative",
                       "effect":  "Ammo Maximum",
-                      "min":  150,
-                      "max":  1500,
-                      "median":  500
-                  },
-                  {
-                      "name":  "Phage",
-                      "type":  "positive",
-                      "effect":  "Damage to Corpus",
-                      "min":  190,
-                      "max":  700,
-                      "median":  200
+                      "min":  40,
+                      "max":  12000,
+                      "median":  1000
                   },
                   {
                       "name":  "Phage",
                       "type":  "negative",
                       "effect":  "Damage to Corpus",
-                      "min":  388,
+                      "min":  60,
                       "max":  1000,
-                      "median":  450
+                      "median":  600
                   },
                   {
                       "name":  "Phage",
                       "type":  "positive",
                       "effect":  "Damage to Grineer",
-                      "min":  70,
+                      "min":  150,
                       "max":  600,
-                      "median":  75
+                      "median":  150
                   },
                   {
                       "name":  "Phage",
                       "type":  "negative",
                       "effect":  "Damage to Grineer",
-                      "min":  190,
-                      "max":  600,
-                      "median":  300
+                      "min":  30,
+                      "max":  400,
+                      "median":  120
                   },
                   {
                       "name":  "Phage",
                       "type":  "positive",
                       "effect":  "Damage to Infested",
                       "min":  23,
-                      "max":  600,
-                      "median":  50
+                      "max":  120,
+                      "median":  60
                   },
                   {
                       "name":  "Phage",
                       "type":  "negative",
                       "effect":  "Damage to Infested",
-                      "min":  22,
-                      "max":  700,
-                      "median":  300
+                      "min":  80,
+                      "max":  4500,
+                      "median":  1500
                   },
                   {
                       "name":  "Phage",
@@ -71,31 +63,31 @@
                       "effect":  "Cold",
                       "min":  23,
                       "max":  1500,
-                      "median":  450
+                      "median":  280
                   },
                   {
                       "name":  "Phage",
                       "type":  "positive",
                       "effect":  "Critical Chance",
-                      "min":  22,
-                      "max":  5000,
-                      "median":  260
+                      "min":  45,
+                      "max":  12000,
+                      "median":  300
                   },
                   {
                       "name":  "Phage",
                       "type":  "positive",
                       "effect":  "Critical Damage",
                       "min":  30,
-                      "max":  11000,
-                      "median":  350
+                      "max":  17500,
+                      "median":  500
                   },
                   {
                       "name":  "Phage",
                       "type":  "positive",
                       "effect":  "Damage",
-                      "min":  22,
-                      "max":  2000,
-                      "median":  200
+                      "min":  30,
+                      "max":  3500,
+                      "median":  300
                   },
                   {
                       "name":  "Phage",
@@ -103,7 +95,7 @@
                       "effect":  "Electricity",
                       "min":  35,
                       "max":  2000,
-                      "median":  75
+                      "median":  100
                   },
                   {
                       "name":  "Phage",
@@ -111,15 +103,15 @@
                       "effect":  "Heat",
                       "min":  30,
                       "max":  2000,
-                      "median":  300
+                      "median":  100
                   },
                   {
                       "name":  "Phage",
                       "type":  "positive",
                       "effect":  "Fire Rate / Attack Speed",
-                      "min":  30,
-                      "max":  11000,
-                      "median":  400
+                      "min":  25,
+                      "max":  17500,
+                      "median":  340
                   },
                   {
                       "name":  "Phage",
@@ -131,27 +123,35 @@
                   },
                   {
                       "name":  "Phage",
+                      "type":  "positive",
+                      "effect":  "Magazine Capacity",
+                      "min":  20,
+                      "max":  250,
+                      "median":  45
+                  },
+                  {
+                      "name":  "Phage",
                       "type":  "negative",
                       "effect":  "Magazine Capacity",
-                      "min":  1000,
+                      "min":  200,
                       "max":  5000,
-                      "median":  1000
+                      "median":  500
                   },
                   {
                       "name":  "Phage",
                       "type":  "positive",
                       "effect":  "Multishot",
                       "min":  50,
-                      "max":  11000,
-                      "median":  500
+                      "max":  17500,
+                      "median":  800
                   },
                   {
                       "name":  "Phage",
                       "type":  "positive",
                       "effect":  "Toxin",
-                      "min":  50,
-                      "max":  3000,
-                      "median":  100
+                      "min":  30,
+                      "max":  4500,
+                      "median":  150
                   },
                   {
                       "name":  "Phage",
@@ -165,25 +165,25 @@
                       "name":  "Phage",
                       "type":  "positive",
                       "effect":  "Reload Speed",
-                      "min":  80,
-                      "max":  600,
+                      "min":  30,
+                      "max":  800,
                       "median":  80
                   },
                   {
                       "name":  "Phage",
                       "type":  "negative",
                       "effect":  "Reload Speed",
-                      "min":  60,
-                      "max":  888,
-                      "median":  200
+                      "min":  45,
+                      "max":  10000,
+                      "median":  250
                   },
                   {
                       "name":  "Phage",
                       "type":  "positive",
                       "effect":  "Status Chance",
-                      "min":  50,
-                      "max":  6000,
-                      "median":  260
+                      "min":  20,
+                      "max":  10000,
+                      "median":  250
                   },
                   {
                       "name":  "Phage",
@@ -191,38 +191,38 @@
                       "effect":  "Status Chance",
                       "min":  35,
                       "max":  1495,
-                      "median":  150
+                      "median":  35
                   },
                   {
                       "name":  "Phage",
                       "type":  "positive",
                       "effect":  "Status Duration",
-                      "min":  50,
-                      "max":  400,
-                      "median":  70
+                      "min":  60,
+                      "max":  1500,
+                      "median":  800
                   },
                   {
                       "name":  "Phage",
                       "type":  "negative",
                       "effect":  "Status Duration",
-                      "min":  30,
-                      "max":  200,
-                      "median":  30
-                  },
-                  {
-                      "name":  "Phage",
-                      "type":  "positive",
-                      "effect":  "Weapon Recoil",
-                      "min":  22,
+                      "min":  25,
                       "max":  100,
+                      "median":  25
+                  },
+                  {
+                      "name":  "Phage",
+                      "type":  "positive",
+                      "effect":  "Weapon Recoil",
+                      "min":  20,
+                      "max":  60,
                       "median":  30
                   },
                   {
                       "name":  "Phage",
                       "type":  "negative",
                       "effect":  "Weapon Recoil",
-                      "min":  80,
-                      "max":  11000,
+                      "min":  100,
+                      "max":  17500,
                       "median":  2000
                   }
               ]
