@@ -3,65 +3,65 @@
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Damage to Corpus",
-        "min":  300,
-        "max":  4000,
+        "min":  250,
+        "max":  500,
         "median":  300
     },
     {
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Damage to Corpus",
-        "min":  600,
-        "max":  4000,
+        "min":  300,
+        "max":  2000,
         "median":  900
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Damage to Grineer",
-        "min":  225,
+        "min":  250,
         "max":  1555,
-        "median":  700
+        "median":  600
     },
     {
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Damage to Grineer",
-        "min":  300,
+        "min":  129,
         "max":  500,
-        "median":  300
+        "median":  350
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Damage to Infested",
         "min":  175,
-        "max":  600,
-        "median":  250
+        "max":  200,
+        "median":  175
     },
     {
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Damage to Infested",
-        "min":  110,
-        "max":  3655,
-        "median":  700
+        "min":  300,
+        "max":  5500,
+        "median":  666
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Cold",
-        "min":  149,
-        "max":  3100,
-        "median":  490
+        "min":  300,
+        "max":  3000,
+        "median":  500
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Initial combo",
-        "min":  110,
+        "min":  105,
         "max":  6001,
-        "median":  700
+        "median":  600
     },
     {
         "name":  "Hate",
@@ -69,63 +69,63 @@
         "effect":  "Heavy Attack Efficiency",
         "min":  150,
         "max":  10000,
-        "median":  350
-    },
-    {
-        "name":  "Hate",
-        "type":  "negative",
-        "effect":  "Heavy Attack Efficiency",
-        "min":  250,
-        "max":  9900,
-        "median":  900
-    },
-    {
-        "name":  "Hate",
-        "type":  "positive",
-        "effect":  "Combo Duration",
-        "min":  100,
-        "max":  1700,
         "median":  500
     },
     {
         "name":  "Hate",
         "type":  "negative",
+        "effect":  "Heavy Attack Efficiency",
+        "min":  200,
+        "max":  20000,
+        "median":  950
+    },
+    {
+        "name":  "Hate",
+        "type":  "positive",
         "effect":  "Combo Duration",
-        "min":  300,
-        "max":  4000,
-        "median":  1500
+        "min":  129,
+        "max":  1499,
+        "median":  358
+    },
+    {
+        "name":  "Hate",
+        "type":  "negative",
+        "effect":  "Combo Duration",
+        "min":  110,
+        "max":  4500,
+        "median":  600
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Critical Chance",
-        "min":  150,
+        "min":  169,
         "max":  1000,
-        "median":  400
+        "median":  500
     },
     {
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Critical Chance for Slide Attack",
-        "min":  200,
+        "min":  170,
         "max":  10000,
-        "median":  1500
+        "median":  1000
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  100,
+        "min":  150,
         "max":  1300,
-        "median":  700
+        "median":  600
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Damage",
-        "min":  100,
+        "min":  120,
         "max":  8000,
-        "median":  699
+        "median":  700
     },
     {
         "name":  "Hate",
@@ -133,111 +133,103 @@
         "effect":  "Electricity",
         "min":  110,
         "max":  3888,
-        "median":  600
+        "median":  800
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Heat",
-        "min":  189,
-        "max":  3000,
-        "median":  900
-    },
-    {
-        "name":  "Hate",
-        "type":  "positive",
-        "effect":  "Finisher Damage",
-        "min":  150,
-        "max":  200,
-        "median":  150
+        "min":  110,
+        "max":  8888,
+        "median":  800
     },
     {
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Finisher Damage",
-        "min":  150,
-        "max":  3888,
+        "min":  200,
+        "max":  5000,
         "median":  850
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Fire Rate / Attack Speed",
-        "min":  300,
-        "max":  10000,
-        "median":  1000
+        "min":  100,
+        "max":  20000,
+        "median":  800
     },
     {
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Fire Rate / Attack Speed",
-        "min":  280,
-        "max":  450,
-        "median":  280
+        "min":  500,
+        "max":  2500,
+        "median":  500
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Toxin",
-        "min":  169,
-        "max":  3300,
-        "median":  460
+        "min":  140,
+        "max":  1200,
+        "median":  500
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Range",
-        "min":  169,
-        "max":  4000,
-        "median":  700
+        "min":  140,
+        "max":  20000,
+        "median":  800
     },
     {
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Range",
-        "min":  250,
-        "max":  2800,
-        "median":  1000
+        "min":  110,
+        "max":  1299,
+        "median":  450
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Slash",
-        "min":  150,
-        "max":  1100,
-        "median":  380
+        "min":  110,
+        "max":  1150,
+        "median":  400
     },
     {
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Slash",
-        "min":  300,
+        "min":  350,
         "max":  10000,
-        "median":  3000
+        "median":  1200
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Status Chance",
         "min":  110,
-        "max":  980,
-        "median":  250
+        "max":  1500,
+        "median":  600
     },
     {
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Status Chance",
-        "min":  300,
-        "max":  2000,
-        "median":  699
+        "min":  600,
+        "max":  699,
+        "median":  600
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Status Duration",
         "min":  130,
-        "max":  3500,
-        "median":  400
+        "max":  1555,
+        "median":  350
     },
     {
         "name":  "Hate",
@@ -245,85 +237,85 @@
         "effect":  "Status Duration",
         "min":  169,
         "max":  2000,
-        "median":  324
+        "median":  250
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Additional Combo Count Chance",
-        "min":  280,
+        "min":  100,
         "max":  1000,
-        "median":  280
+        "median":  150
     },
     {
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Chance to Gain Combo Count",
-        "min":  400,
-        "max":  1900,
-        "median":  500
+        "min":  220,
+        "max":  1150,
+        "median":  400
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Ammo Maximum",
-        "min":  100,
-        "max":  200,
-        "median":  100
-    },
-    {
-        "name":  "Synapse",
-        "type":  "negative",
-        "effect":  "Ammo Maximum",
-        "min":  65,
-        "max":  1400,
-        "median":  250
-    },
-    {
-        "name":  "Synapse",
-        "type":  "positive",
-        "effect":  "Damage to Corpus",
-        "min":  199,
-        "max":  400,
-        "median":  199
-    },
-    {
-        "name":  "Synapse",
-        "type":  "negative",
-        "effect":  "Damage to Corpus",
-        "min":  75,
-        "max":  11000,
-        "median":  800
-    },
-    {
-        "name":  "Synapse",
-        "type":  "positive",
-        "effect":  "Damage to Grineer",
-        "min":  90,
-        "max":  1500,
-        "median":  120
-    },
-    {
-        "name":  "Synapse",
-        "type":  "negative",
-        "effect":  "Damage to Grineer",
         "min":  80,
-        "max":  400,
-        "median":  300
-    },
-    {
-        "name":  "Synapse",
-        "type":  "positive",
-        "effect":  "Damage to Infested",
-        "min":  65,
-        "max":  250,
+        "max":  300,
         "median":  150
     },
     {
         "name":  "Synapse",
         "type":  "negative",
+        "effect":  "Ammo Maximum",
+        "min":  250,
+        "max":  2599,
+        "median":  450
+    },
+    {
+        "name":  "Synapse",
+        "type":  "positive",
+        "effect":  "Damage to Corpus",
+        "min":  65,
+        "max":  990,
+        "median":  300
+    },
+    {
+        "name":  "Synapse",
+        "type":  "negative",
+        "effect":  "Damage to Corpus",
+        "min":  160,
+        "max":  6000,
+        "median":  375
+    },
+    {
+        "name":  "Synapse",
+        "type":  "positive",
+        "effect":  "Damage to Grineer",
+        "min":  65,
+        "max":  1000,
+        "median":  160
+    },
+    {
+        "name":  "Synapse",
+        "type":  "negative",
+        "effect":  "Damage to Grineer",
+        "min":  250,
+        "max":  300,
+        "median":  250
+    },
+    {
+        "name":  "Synapse",
+        "type":  "positive",
         "effect":  "Damage to Infested",
-        "min":  120,
+        "min":  150,
+        "max":  450,
+        "median":  250
+    },
+    {
+        "name":  "Synapse",
+        "type":  "negative",
+        "effect":  "Damage to Infested",
+        "min":  500,
         "max":  10000,
         "median":  2400
     },
@@ -331,33 +323,41 @@
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Cold",
-        "min":  60,
-        "max":  1800,
-        "median":  200
+        "min":  99,
+        "max":  2500,
+        "median":  300
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Critical Chance",
-        "min":  75,
-        "max":  11000,
-        "median":  500
+        "min":  60,
+        "max":  14500,
+        "median":  650
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  60,
-        "max":  15000,
-        "median":  700
+        "min":  65,
+        "max":  14500,
+        "median":  650
+    },
+    {
+        "name":  "Synapse",
+        "type":  "negative",
+        "effect":  "Critical Damage",
+        "min":  65,
+        "max":  69,
+        "median":  65
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Damage",
-        "min":  90,
+        "min":  60,
         "max":  2750,
-        "median":  450
+        "median":  300
     },
     {
         "name":  "Synapse",
@@ -371,103 +371,111 @@
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Electricity",
-        "min":  65,
-        "max":  1400,
-        "median":  199
+        "min":  150,
+        "max":  2000,
+        "median":  390
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Heat",
-        "min":  199,
-        "max":  1700,
-        "median":  850
+        "min":  65,
+        "max":  999,
+        "median":  260
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Fire Rate / Attack Speed",
         "min":  100,
-        "max":  15000,
-        "median":  399
+        "max":  3000,
+        "median":  500
     },
     {
         "name":  "Synapse",
         "type":  "negative",
         "effect":  "Fire Rate / Attack Speed",
-        "min":  100,
-        "max":  300,
-        "median":  130
+        "min":  150,
+        "max":  1000,
+        "median":  200
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Magazine Capacity",
-        "min":  80,
-        "max":  900,
-        "median":  399
+        "min":  60,
+        "max":  399,
+        "median":  120
     },
     {
         "name":  "Synapse",
         "type":  "negative",
         "effect":  "Magazine Capacity",
-        "min":  90,
-        "max":  1700,
-        "median":  199
+        "min":  150,
+        "max":  1500,
+        "median":  350
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Multishot",
-        "min":  60,
-        "max":  15000,
-        "median":  800
+        "min":  100,
+        "max":  14500,
+        "median":  550
+    },
+    {
+        "name":  "Synapse",
+        "type":  "negative",
+        "effect":  "Multishot",
+        "min":  200,
+        "max":  300,
+        "median":  200
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Toxin",
-        "min":  90,
-        "max":  4000,
-        "median":  400
+        "min":  60,
+        "max":  4500,
+        "median":  300
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Punch Through",
-        "min":  80,
-        "max":  1250,
+        "min":  70,
+        "max":  650,
         "median":  175
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Reload Speed",
-        "min":  120,
+        "min":  65,
         "max":  450,
-        "median":  145
+        "median":  65
     },
     {
         "name":  "Synapse",
         "type":  "negative",
         "effect":  "Reload Speed",
-        "min":  60,
-        "max":  1000,
-        "median":  400
+        "min":  200,
+        "max":  1200,
+        "median":  450
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Status Chance",
-        "min":  80,
+        "min":  70,
         "max":  2000,
-        "median":  400
+        "median":  900
     },
     {
         "name":  "Synapse",
         "type":  "negative",
         "effect":  "Status Chance",
-        "min":  200,
+        "min":  120,
         "max":  2750,
         "median":  500
     },
@@ -475,65 +483,65 @@
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Status Duration",
-        "min":  60,
-        "max":  700,
-        "median":  80
+        "min":  69,
+        "max":  400,
+        "median":  100
     },
     {
         "name":  "Synapse",
         "type":  "negative",
         "effect":  "Status Duration",
-        "min":  150,
-        "max":  1150,
-        "median":  400
-    },
-    {
-        "name":  "Synapse",
-        "type":  "positive",
-        "effect":  "Weapon Recoil",
-        "min":  100,
-        "max":  300,
-        "median":  200
+        "min":  400,
+        "max":  1999,
+        "median":  600
     },
     {
         "name":  "Synapse",
         "type":  "negative",
         "effect":  "Weapon Recoil",
         "min":  90,
-        "max":  10000,
-        "median":  1100
+        "max":  14500,
+        "median":  1000
     },
     {
         "name":  "Synapse",
         "type":  "positive",
         "effect":  "Zoom",
         "min":  60,
-        "max":  700,
+        "max":  400,
         "median":  100
     },
     {
         "name":  "Synapse",
         "type":  "negative",
         "effect":  "Zoom",
-        "min":  100,
-        "max":  15000,
+        "min":  80,
+        "max":  10000,
         "median":  850
+    },
+    {
+        "name":  "Torid",
+        "type":  "positive",
+        "effect":  "Ammo Maximum",
+        "min":  1250,
+        "max":  1450,
+        "median":  1250
     },
     {
         "name":  "Torid",
         "type":  "negative",
         "effect":  "Ammo Maximum",
-        "min":  650,
-        "max":  5999,
-        "median":  1400
+        "min":  541,
+        "max":  6800,
+        "median":  1200
     },
     {
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Damage to Corpus",
-        "min":  475,
-        "max":  1500,
-        "median":  950
+        "min":  699,
+        "max":  1000,
+        "median":  850
     },
     {
         "name":  "Torid",
@@ -541,45 +549,45 @@
         "effect":  "Damage to Corpus",
         "min":  550,
         "max":  4000,
-        "median":  1100
+        "median":  1500
     },
     {
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Damage to Grineer",
-        "min":  800,
-        "max":  2400,
-        "median":  1000
+        "min":  500,
+        "max":  10000,
+        "median":  900
     },
     {
         "name":  "Torid",
         "type":  "negative",
         "effect":  "Damage to Grineer",
         "min":  529,
-        "max":  1450,
-        "median":  680
+        "max":  3550,
+        "median":  900
     },
     {
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Damage to Infested",
         "min":  800,
-        "max":  1500,
-        "median":  1000
+        "max":  1000,
+        "median":  900
     },
     {
         "name":  "Torid",
         "type":  "negative",
         "effect":  "Damage to Infested",
-        "min":  550,
+        "min":  599,
         "max":  8000,
-        "median":  1050
+        "median":  1000
     },
     {
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Cold",
-        "min":  489,
+        "min":  499,
         "max":  5000,
         "median":  1000
     },
@@ -587,25 +595,25 @@
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Critical Chance",
-        "min":  475,
-        "max":  900,
-        "median":  790
+        "min":  468,
+        "max":  950,
+        "median":  800
     },
     {
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  490,
+        "min":  500,
         "max":  950,
-        "median":  750
+        "median":  788
     },
     {
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Damage",
-        "min":  550,
+        "min":  498,
         "max":  1500,
-        "median":  1000
+        "median":  820
     },
     {
         "name":  "Torid",
@@ -613,45 +621,45 @@
         "effect":  "Electricity",
         "min":  500,
         "max":  3399,
-        "median":  950
-    },
-    {
-        "name":  "Torid",
-        "type":  "positive",
-        "effect":  "Heat",
-        "min":  599,
-        "max":  3500,
-        "median":  800
-    },
-    {
-        "name":  "Torid",
-        "type":  "positive",
-        "effect":  "Fire Rate / Attack Speed",
-        "min":  489,
-        "max":  4900,
-        "median":  1150
-    },
-    {
-        "name":  "Torid",
-        "type":  "negative",
-        "effect":  "Fire Rate / Attack Speed",
-        "min":  700,
-        "max":  2333,
         "median":  1000
     },
     {
         "name":  "Torid",
         "type":  "positive",
+        "effect":  "Heat",
+        "min":  541,
+        "max":  3500,
+        "median":  950
+    },
+    {
+        "name":  "Torid",
+        "type":  "positive",
+        "effect":  "Fire Rate / Attack Speed",
+        "min":  468,
+        "max":  6500,
+        "median":  1250
+    },
+    {
+        "name":  "Torid",
+        "type":  "negative",
+        "effect":  "Fire Rate / Attack Speed",
+        "min":  725,
+        "max":  2333,
+        "median":  950
+    },
+    {
+        "name":  "Torid",
+        "type":  "positive",
         "effect":  "Projectile speed",
-        "min":  550,
-        "max":  1750,
-        "median":  800
+        "min":  541,
+        "max":  2000,
+        "median":  700
     },
     {
         "name":  "Torid",
         "type":  "negative",
         "effect":  "Projectile speed",
-        "min":  600,
+        "min":  570,
         "max":  10000,
         "median":  1200
     },
@@ -659,23 +667,23 @@
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Magazine Capacity",
-        "min":  500,
+        "min":  600,
         "max":  1100,
-        "median":  600
+        "median":  720
     },
     {
         "name":  "Torid",
         "type":  "negative",
         "effect":  "Magazine Capacity",
-        "min":  490,
+        "min":  500,
         "max":  25000,
-        "median":  1800
+        "median":  1500
     },
     {
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Multishot",
-        "min":  500,
+        "min":  480,
         "max":  1000,
         "median":  800
     },
@@ -683,48 +691,48 @@
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Toxin",
-        "min":  529,
-        "max":  3500,
-        "median":  1200
+        "min":  480,
+        "max":  6666,
+        "median":  1090
     },
     {
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Punch Through",
-        "min":  600,
+        "min":  680,
         "max":  1500,
-        "median":  680
+        "median":  788
     },
     {
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Reload Speed",
-        "min":  550,
+        "min":  750,
         "max":  1099,
-        "median":  625
+        "median":  800
     },
     {
         "name":  "Torid",
         "type":  "negative",
         "effect":  "Reload Speed",
-        "min":  600,
+        "min":  498,
         "max":  8000,
-        "median":  1000
+        "median":  1200
     },
     {
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Status Chance",
-        "min":  475,
-        "max":  2000,
-        "median":  1080
+        "min":  498,
+        "max":  3000,
+        "median":  800
     },
     {
         "name":  "Torid",
         "type":  "negative",
         "effect":  "Status Chance",
         "min":  600,
-        "max":  5000,
+        "max":  3500,
         "median":  1000
     },
     {
@@ -732,63 +740,63 @@
         "type":  "positive",
         "effect":  "Status Duration",
         "min":  499,
-        "max":  2500,
-        "median":  800
+        "max":  1500,
+        "median":  750
     },
     {
         "name":  "Torid",
         "type":  "negative",
         "effect":  "Status Duration",
-        "min":  650,
-        "max":  6000,
-        "median":  800
+        "min":  545,
+        "max":  5000,
+        "median":  1000
     },
     {
         "name":  "Torid",
         "type":  "positive",
         "effect":  "Weapon Recoil",
-        "min":  490,
-        "max":  700,
-        "median":  500
+        "min":  500,
+        "max":  1500,
+        "median":  700
     },
     {
         "name":  "Torid",
         "type":  "negative",
         "effect":  "Weapon Recoil",
         "min":  599,
-        "max":  16590,
-        "median":  1080
+        "max":  4900,
+        "median":  1100
     },
     {
         "name":  "Torid",
         "type":  "negative",
         "effect":  "Zoom",
-        "min":  489,
+        "min":  480,
         "max":  13000,
-        "median":  1500
+        "median":  1250
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Ammo Maximum",
-        "min":  150,
-        "max":  165,
+        "min":  40,
+        "max":  500,
         "median":  150
     },
     {
         "name":  "Zenith",
         "type":  "negative",
         "effect":  "Ammo Maximum",
-        "min":  200,
-        "max":  3500,
-        "median":  500
+        "min":  100,
+        "max":  3000,
+        "median":  350
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Damage to Corpus",
         "min":  50,
-        "max":  1000,
+        "max":  5000,
         "median":  300
     },
     {
@@ -797,7 +805,7 @@
         "effect":  "Damage to Corpus",
         "min":  50,
         "max":  2000,
-        "median":  500
+        "median":  240
     },
     {
         "name":  "Zenith",
@@ -805,45 +813,45 @@
         "effect":  "Damage to Grineer",
         "min":  40,
         "max":  500,
-        "median":  120
+        "median":  100
     },
     {
         "name":  "Zenith",
         "type":  "negative",
         "effect":  "Damage to Grineer",
-        "min":  300,
-        "max":  3000,
-        "median":  1700
+        "min":  250,
+        "max":  2000,
+        "median":  500
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Damage to Infested",
-        "min":  50,
-        "max":  350,
-        "median":  50
+        "min":  40,
+        "max":  240,
+        "median":  100
     },
     {
         "name":  "Zenith",
         "type":  "negative",
         "effect":  "Damage to Infested",
-        "min":  180,
-        "max":  9500,
-        "median":  800
+        "min":  40,
+        "max":  8888,
+        "median":  500
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Cold",
-        "min":  35,
-        "max":  3000,
-        "median":  350
+        "min":  39,
+        "max":  800,
+        "median":  250
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Critical Chance",
-        "min":  50,
+        "min":  60,
         "max":  1000,
         "median":  350
     },
@@ -851,40 +859,40 @@
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  45,
-        "max":  750,
+        "min":  40,
+        "max":  777,
         "median":  300
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Damage",
-        "min":  60,
-        "max":  3000,
-        "median":  500
+        "min":  40,
+        "max":  5000,
+        "median":  650
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Electricity",
         "min":  40,
-        "max":  2500,
-        "median":  350
+        "max":  1500,
+        "median":  450
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Heat",
         "min":  45,
-        "max":  4500,
-        "median":  500
+        "max":  4000,
+        "median":  350
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Fire Rate / Attack Speed",
-        "min":  35,
-        "max":  2222,
+        "min":  89,
+        "max":  8888,
         "median":  500
     },
     {
@@ -892,30 +900,30 @@
         "type":  "negative",
         "effect":  "Fire Rate / Attack Speed",
         "min":  45,
-        "max":  390,
-        "median":  180
+        "max":  7000,
+        "median":  200
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Magazine Capacity",
-        "min":  45,
-        "max":  590,
+        "min":  39,
+        "max":  500,
         "median":  100
     },
     {
         "name":  "Zenith",
         "type":  "negative",
         "effect":  "Magazine Capacity",
-        "min":  120,
+        "min":  200,
         "max":  4000,
-        "median":  700
+        "median":  650
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Multishot",
-        "min":  100,
+        "min":  40,
         "max":  1000,
         "median":  500
     },
@@ -923,23 +931,23 @@
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Toxin",
-        "min":  100,
-        "max":  3000,
-        "median":  350
+        "min":  50,
+        "max":  4000,
+        "median":  500
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Punch Through",
-        "min":  30,
+        "min":  40,
         "max":  1900,
-        "median":  40
+        "median":  220
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Reload Speed",
-        "min":  50,
+        "min":  39,
         "max":  850,
         "median":  150
     },
@@ -947,7 +955,7 @@
         "name":  "Zenith",
         "type":  "negative",
         "effect":  "Reload Speed",
-        "min":  300,
+        "min":  140,
         "max":  8000,
         "median":  500
     },
@@ -955,7 +963,7 @@
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Slash",
-        "min":  150,
+        "min":  45,
         "max":  500,
         "median":  180
     },
@@ -965,46 +973,46 @@
         "effect":  "Slash",
         "min":  100,
         "max":  7999,
-        "median":  866
+        "median":  700
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Status Chance",
-        "min":  30,
-        "max":  1500,
-        "median":  499
+        "min":  150,
+        "max":  1000,
+        "median":  220
     },
     {
         "name":  "Zenith",
         "type":  "negative",
         "effect":  "Status Chance",
-        "min":  150,
-        "max":  3000,
-        "median":  555
+        "min":  40,
+        "max":  5000,
+        "median":  850
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Status Duration",
-        "min":  35,
-        "max":  450,
-        "median":  50
+        "min":  45,
+        "max":  675,
+        "median":  220
     },
     {
         "name":  "Zenith",
         "type":  "negative",
         "effect":  "Status Duration",
         "min":  100,
-        "max":  1000,
+        "max":  1200,
         "median":  350
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Weapon Recoil",
-        "min":  35,
-        "max":  150,
+        "min":  40,
+        "max":  500,
         "median":  100
     },
     {
@@ -1012,24 +1020,24 @@
         "type":  "negative",
         "effect":  "Weapon Recoil",
         "min":  200,
-        "max":  12000,
+        "max":  8000,
         "median":  800
     },
     {
         "name":  "Zenith",
         "type":  "positive",
         "effect":  "Zoom",
-        "min":  70,
-        "max":  300,
-        "median":  120
+        "min":  60,
+        "max":  200,
+        "median":  100
     },
     {
         "name":  "Zenith",
         "type":  "negative",
         "effect":  "Zoom",
-        "min":  165,
-        "max":  12000,
-        "median":  1000
+        "min":  200,
+        "max":  7777,
+        "median":  999
     },
     {
         "name":  "Latron",
@@ -1037,38 +1045,38 @@
         "effect":  "Ammo Maximum",
         "min":  175,
         "max":  500,
-        "median":  400
+        "median":  300
     },
     {
         "name":  "Latron",
         "type":  "negative",
         "effect":  "Ammo Maximum",
-        "min":  200,
-        "max":  2750,
-        "median":  1100
+        "min":  400,
+        "max":  15000,
+        "median":  1000
     },
     {
         "name":  "Latron",
         "type":  "positive",
         "effect":  "Damage to Corpus",
-        "min":  130,
-        "max":  600,
-        "median":  200
+        "min":  200,
+        "max":  3210,
+        "median":  600
     },
     {
         "name":  "Latron",
         "type":  "negative",
         "effect":  "Damage to Corpus",
-        "min":  110,
-        "max":  2300,
-        "median":  500
+        "min":  320,
+        "max":  3000,
+        "median":  450
     },
     {
         "name":  "Latron",
         "type":  "positive",
         "effect":  "Damage to Grineer",
-        "min":  180,
-        "max":  1200,
+        "min":  200,
+        "max":  3210,
         "median":  600
     },
     {
@@ -1076,70 +1084,62 @@
         "type":  "negative",
         "effect":  "Damage to Grineer",
         "min":  199,
-        "max":  3500,
-        "median":  666
-    },
-    {
-        "name":  "Latron",
-        "type":  "positive",
-        "effect":  "Damage to Infested",
-        "min":  120,
-        "max":  400,
-        "median":  250
-    },
-    {
-        "name":  "Latron",
-        "type":  "negative",
-        "effect":  "Damage to Infested",
-        "min":  175,
-        "max":  3980,
-        "median":  800
-    },
-    {
-        "name":  "Latron",
-        "type":  "positive",
-        "effect":  "Cold",
-        "min":  120,
-        "max":  9900,
+        "max":  3200,
         "median":  600
     },
     {
         "name":  "Latron",
         "type":  "positive",
-        "effect":  "Critical Chance",
+        "effect":  "Damage to Infested",
+        "min":  200,
+        "max":  3210,
+        "median":  300
+    },
+    {
+        "name":  "Latron",
+        "type":  "negative",
+        "effect":  "Damage to Infested",
         "min":  150,
-        "max":  699,
-        "median":  450
+        "max":  5888,
+        "median":  750
     },
     {
         "name":  "Latron",
         "type":  "positive",
-        "effect":  "Critical Damage",
-        "min":  110,
+        "effect":  "Cold",
+        "min":  118,
+        "max":  9900,
+        "median":  400
+    },
+    {
+        "name":  "Latron",
+        "type":  "positive",
+        "effect":  "Critical Chance",
+        "min":  200,
         "max":  700,
         "median":  400
     },
     {
         "name":  "Latron",
         "type":  "positive",
+        "effect":  "Critical Damage",
+        "min":  200,
+        "max":  700,
+        "median":  450
+    },
+    {
+        "name":  "Latron",
+        "type":  "positive",
         "effect":  "Damage",
-        "min":  149,
+        "min":  120,
         "max":  2000,
         "median":  600
     },
     {
         "name":  "Latron",
-        "type":  "negative",
-        "effect":  "Damage",
-        "min":  120,
-        "max":  490,
-        "median":  120
-    },
-    {
-        "name":  "Latron",
         "type":  "positive",
         "effect":  "Electricity",
-        "min":  150,
+        "min":  140,
         "max":  2799,
         "median":  699
     },
@@ -1147,47 +1147,47 @@
         "name":  "Latron",
         "type":  "positive",
         "effect":  "Heat",
-        "min":  120,
+        "min":  200,
         "max":  10000,
-        "median":  400
-    },
-    {
-        "name":  "Latron",
-        "type":  "positive",
-        "effect":  "Fire Rate / Attack Speed",
-        "min":  150,
-        "max":  2199,
-        "median":  650
-    },
-    {
-        "name":  "Latron",
-        "type":  "negative",
-        "effect":  "Fire Rate / Attack Speed",
-        "min":  300,
-        "max":  1200,
         "median":  700
     },
     {
         "name":  "Latron",
         "type":  "positive",
+        "effect":  "Fire Rate / Attack Speed",
+        "min":  175,
+        "max":  4500,
+        "median":  600
+    },
+    {
+        "name":  "Latron",
+        "type":  "negative",
+        "effect":  "Fire Rate / Attack Speed",
+        "min":  200,
+        "max":  7800,
+        "median":  500
+    },
+    {
+        "name":  "Latron",
+        "type":  "positive",
         "effect":  "Magazine Capacity",
-        "min":  130,
-        "max":  550,
-        "median":  175
+        "min":  175,
+        "max":  800,
+        "median":  240
     },
     {
         "name":  "Latron",
         "type":  "negative",
         "effect":  "Magazine Capacity",
-        "min":  250,
-        "max":  5000,
-        "median":  1100
+        "min":  200,
+        "max":  5500,
+        "median":  750
     },
     {
         "name":  "Latron",
         "type":  "positive",
         "effect":  "Multishot",
-        "min":  128,
+        "min":  118,
         "max":  888,
         "median":  450
     },
@@ -1195,71 +1195,71 @@
         "name":  "Latron",
         "type":  "positive",
         "effect":  "Toxin",
-        "min":  120,
+        "min":  150,
         "max":  9900,
-        "median":  750
+        "median":  499
     },
     {
         "name":  "Latron",
         "type":  "positive",
         "effect":  "Punch Through",
-        "min":  110,
-        "max":  777,
-        "median":  120
+        "min":  200,
+        "max":  2300,
+        "median":  600
     },
     {
         "name":  "Latron",
         "type":  "positive",
         "effect":  "Puncture",
-        "min":  130,
+        "min":  150,
         "max":  3000,
-        "median":  800
+        "median":  200
     },
     {
         "name":  "Latron",
         "type":  "negative",
         "effect":  "Puncture",
-        "min":  120,
-        "max":  10590,
-        "median":  650
+        "min":  250,
+        "max":  10000,
+        "median":  999
     },
     {
         "name":  "Latron",
         "type":  "positive",
         "effect":  "Reload Speed",
-        "min":  128,
+        "min":  118,
         "max":  1000,
-        "median":  500
+        "median":  220
     },
     {
         "name":  "Latron",
         "type":  "negative",
         "effect":  "Reload Speed",
         "min":  240,
-        "max":  4500,
-        "median":  700
+        "max":  5000,
+        "median":  600
     },
     {
         "name":  "Latron",
         "type":  "positive",
         "effect":  "Status Chance",
-        "min":  200,
-        "max":  2000,
-        "median":  800
+        "min":  120,
+        "max":  15000,
+        "median":  400
     },
     {
         "name":  "Latron",
         "type":  "negative",
         "effect":  "Status Chance",
-        "min":  150,
-        "max":  2999,
+        "min":  288,
+        "max":  3100,
         "median":  400
     },
     {
         "name":  "Latron",
         "type":  "positive",
         "effect":  "Status Duration",
-        "min":  500,
+        "min":  150,
         "max":  600,
         "median":  500
     },
@@ -1267,15 +1267,15 @@
         "name":  "Latron",
         "type":  "negative",
         "effect":  "Status Duration",
-        "min":  380,
-        "max":  2300,
-        "median":  600
+        "min":  220,
+        "max":  3500,
+        "median":  800
     },
     {
         "name":  "Latron",
         "type":  "positive",
         "effect":  "Weapon Recoil",
-        "min":  110,
+        "min":  140,
         "max":  600,
         "median":  333
     },
@@ -1283,31 +1283,31 @@
         "name":  "Latron",
         "type":  "negative",
         "effect":  "Weapon Recoil",
-        "min":  249,
+        "min":  250,
         "max":  7999,
-        "median":  1200
+        "median":  699
     },
     {
         "name":  "Latron",
         "type":  "positive",
         "effect":  "Zoom",
-        "min":  149,
-        "max":  300,
-        "median":  270
+        "min":  150,
+        "max":  285,
+        "median":  150
     },
     {
         "name":  "Latron",
         "type":  "negative",
         "effect":  "Zoom",
-        "min":  130,
-        "max":  14000,
-        "median":  899
+        "min":  200,
+        "max":  10086,
+        "median":  1599
     },
     {
         "name":  "Phage",
         "type":  "positive",
         "effect":  "Ammo Maximum",
-        "min":  20,
+        "min":  15,
         "max":  250,
         "median":  85
     },
@@ -1315,9 +1315,17 @@
         "name":  "Phage",
         "type":  "negative",
         "effect":  "Ammo Maximum",
-        "min":  60,
+        "min":  35,
         "max":  9999,
         "median":  900
+    },
+    {
+        "name":  "Phage",
+        "type":  "positive",
+        "effect":  "Damage to Corpus",
+        "min":  15,
+        "max":  350,
+        "median":  150
     },
     {
         "name":  "Phage",
@@ -1325,126 +1333,142 @@
         "effect":  "Damage to Corpus",
         "min":  169,
         "max":  1000,
-        "median":  169
+        "median":  500
     },
     {
         "name":  "Phage",
         "type":  "positive",
         "effect":  "Damage to Grineer",
-        "min":  80,
+        "min":  30,
         "max":  18000,
-        "median":  400
-    },
-    {
-        "name":  "Phage",
-        "type":  "negative",
-        "effect":  "Damage to Grineer",
-        "min":  20,
-        "max":  300,
-        "median":  85
-    },
-    {
-        "name":  "Phage",
-        "type":  "positive",
-        "effect":  "Damage to Infested",
-        "min":  15,
-        "max":  300,
         "median":  50
     },
     {
         "name":  "Phage",
         "type":  "negative",
+        "effect":  "Damage to Grineer",
+        "min":  85,
+        "max":  400,
+        "median":  190
+    },
+    {
+        "name":  "Phage",
+        "type":  "positive",
         "effect":  "Damage to Infested",
-        "min":  200,
-        "max":  4000,
-        "median":  250
-    },
-    {
-        "name":  "Phage",
-        "type":  "positive",
-        "effect":  "Cold",
-        "min":  20,
-        "max":  500,
-        "median":  30
-    },
-    {
-        "name":  "Phage",
-        "type":  "positive",
-        "effect":  "Critical Chance",
-        "min":  20,
-        "max":  11111,
-        "median":  300
-    },
-    {
-        "name":  "Phage",
-        "type":  "positive",
-        "effect":  "Critical Damage",
-        "min":  15,
-        "max":  11111,
-        "median":  200
-    },
-    {
-        "name":  "Phage",
-        "type":  "positive",
-        "effect":  "Damage",
-        "min":  35,
-        "max":  4000,
-        "median":  550
-    },
-    {
-        "name":  "Phage",
-        "type":  "positive",
-        "effect":  "Electricity",
-        "min":  20,
-        "max":  2000,
-        "median":  140
-    },
-    {
-        "name":  "Phage",
-        "type":  "positive",
-        "effect":  "Heat",
-        "min":  50,
-        "max":  18000,
-        "median":  349
-    },
-    {
-        "name":  "Phage",
-        "type":  "positive",
-        "effect":  "Fire Rate / Attack Speed",
-        "min":  25,
-        "max":  10000,
-        "median":  69
-    },
-    {
-        "name":  "Phage",
-        "type":  "positive",
-        "effect":  "Magazine Capacity",
-        "min":  20,
+        "min":  10,
         "max":  80,
         "median":  30
     },
     {
         "name":  "Phage",
         "type":  "negative",
-        "effect":  "Magazine Capacity",
+        "effect":  "Damage to Infested",
+        "min":  100,
+        "max":  4444,
+        "median":  800
+    },
+    {
+        "name":  "Phage",
+        "type":  "positive",
+        "effect":  "Cold",
+        "min":  25,
+        "max":  800,
+        "median":  50
+    },
+    {
+        "name":  "Phage",
+        "type":  "positive",
+        "effect":  "Critical Chance",
+        "min":  30,
+        "max":  9999,
+        "median":  500
+    },
+    {
+        "name":  "Phage",
+        "type":  "negative",
+        "effect":  "Critical Chance",
+        "min":  80,
+        "max":  199,
+        "median":  80
+    },
+    {
+        "name":  "Phage",
+        "type":  "positive",
+        "effect":  "Critical Damage",
+        "min":  18,
+        "max":  15000,
+        "median":  600
+    },
+    {
+        "name":  "Phage",
+        "type":  "positive",
+        "effect":  "Damage",
+        "min":  10,
+        "max":  4000,
+        "median":  300
+    },
+    {
+        "name":  "Phage",
+        "type":  "positive",
+        "effect":  "Electricity",
+        "min":  30,
+        "max":  695,
+        "median":  40
+    },
+    {
+        "name":  "Phage",
+        "type":  "positive",
+        "effect":  "Heat",
+        "min":  15,
+        "max":  18000,
+        "median":  150
+    },
+    {
+        "name":  "Phage",
+        "type":  "positive",
+        "effect":  "Fire Rate / Attack Speed",
         "min":  20,
-        "max":  500,
-        "median":  349
+        "max":  15000,
+        "median":  500
+    },
+    {
+        "name":  "Phage",
+        "type":  "negative",
+        "effect":  "Fire Rate / Attack Speed",
+        "min":  200,
+        "max":  750,
+        "median":  200
+    },
+    {
+        "name":  "Phage",
+        "type":  "positive",
+        "effect":  "Magazine Capacity",
+        "min":  30,
+        "max":  250,
+        "median":  80
+    },
+    {
+        "name":  "Phage",
+        "type":  "negative",
+        "effect":  "Magazine Capacity",
+        "min":  80,
+        "max":  1200,
+        "median":  500
     },
     {
         "name":  "Phage",
         "type":  "positive",
         "effect":  "Multishot",
-        "min":  20,
+        "min":  30,
         "max":  18000,
-        "median":  400
+        "median":  750
     },
     {
         "name":  "Phage",
         "type":  "negative",
         "effect":  "Multishot",
         "min":  18,
-        "max":  30,
+        "max":  50,
         "median":  18
     },
     {
@@ -1452,8 +1476,8 @@
         "type":  "positive",
         "effect":  "Toxin",
         "min":  18,
-        "max":  1500,
-        "median":  100
+        "max":  350,
+        "median":  150
     },
     {
         "name":  "Phage",
@@ -1467,17 +1491,17 @@
         "name":  "Phage",
         "type":  "positive",
         "effect":  "Reload Speed",
-        "min":  35,
-        "max":  150,
-        "median":  100
+        "min":  30,
+        "max":  100,
+        "median":  35
     },
     {
         "name":  "Phage",
         "type":  "negative",
         "effect":  "Reload Speed",
-        "min":  45,
-        "max":  11111,
-        "median":  100
+        "min":  100,
+        "max":  888,
+        "median":  250
     },
     {
         "name":  "Phage",
@@ -1485,261 +1509,277 @@
         "effect":  "Status Chance",
         "min":  18,
         "max":  10000,
-        "median":  200
+        "median":  230
     },
     {
         "name":  "Phage",
         "type":  "positive",
         "effect":  "Status Duration",
         "min":  50,
-        "max":  150,
+        "max":  1500,
         "median":  50
     },
     {
         "name":  "Phage",
         "type":  "negative",
         "effect":  "Status Duration",
-        "min":  100,
-        "max":  200,
-        "median":  100
+        "min":  150,
+        "max":  1000,
+        "median":  150
     },
     {
         "name":  "Phage",
         "type":  "positive",
         "effect":  "Weapon Recoil",
-        "min":  15,
-        "max":  80,
-        "median":  25
+        "min":  30,
+        "max":  35,
+        "median":  30
     },
     {
         "name":  "Phage",
         "type":  "negative",
         "effect":  "Weapon Recoil",
-        "min":  69,
+        "min":  10,
         "max":  18000,
-        "median":  1300
+        "median":  400
+    },
+    {
+        "name":  "Boar",
+        "type":  "positive",
+        "effect":  "Ammo Maximum",
+        "min":  110,
+        "max":  500,
+        "median":  200
     },
     {
         "name":  "Boar",
         "type":  "negative",
         "effect":  "Ammo Maximum",
-        "min":  100,
-        "max":  2000,
+        "min":  50,
+        "max":  4000,
         "median":  650
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Damage to Corpus",
-        "min":  89,
-        "max":  1400,
-        "median":  250
+        "min":  65,
+        "max":  700,
+        "median":  200
     },
     {
         "name":  "Boar",
         "type":  "negative",
         "effect":  "Damage to Corpus",
-        "min":  250,
-        "max":  20000,
-        "median":  500
+        "min":  60,
+        "max":  2300,
+        "median":  480
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Damage to Grineer",
-        "min":  55,
-        "max":  4000,
-        "median":  688
+        "min":  49,
+        "max":  3000,
+        "median":  500
     },
     {
         "name":  "Boar",
         "type":  "negative",
         "effect":  "Damage to Grineer",
-        "min":  200,
-        "max":  900,
-        "median":  500
+        "min":  65,
+        "max":  1500,
+        "median":  600
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Damage to Infested",
-        "min":  90,
-        "max":  380,
-        "median":  188
+        "min":  188,
+        "max":  350,
+        "median":  200
     },
     {
         "name":  "Boar",
         "type":  "negative",
         "effect":  "Damage to Infested",
-        "min":  50,
-        "max":  2499,
+        "min":  70,
+        "max":  7500,
         "median":  550
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Cold",
-        "min":  300,
-        "max":  3750,
-        "median":  599
+        "min":  60,
+        "max":  5000,
+        "median":  400
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Critical Chance",
-        "min":  40,
+        "min":  65,
         "max":  800,
-        "median":  400
+        "median":  350
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  70,
-        "max":  700,
-        "median":  400
+        "min":  65,
+        "max":  650,
+        "median":  399
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Damage",
-        "min":  70,
-        "max":  1666,
-        "median":  588
+        "min":  60,
+        "max":  2000,
+        "median":  480
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Electricity",
-        "min":  79,
-        "max":  15000,
-        "median":  600
+        "min":  60,
+        "max":  2500,
+        "median":  350
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Heat",
-        "min":  40,
+        "min":  200,
         "max":  3000,
-        "median":  650
+        "median":  500
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Fire Rate / Attack Speed",
-        "min":  100,
+        "min":  200,
         "max":  10000,
-        "median":  988
+        "median":  999
+    },
+    {
+        "name":  "Boar",
+        "type":  "negative",
+        "effect":  "Fire Rate / Attack Speed",
+        "min":  100,
+        "max":  500,
+        "median":  135
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Projectile speed",
-        "min":  150,
-        "max":  450,
-        "median":  300
+        "min":  50,
+        "max":  600,
+        "median":  150
     },
     {
         "name":  "Boar",
         "type":  "negative",
         "effect":  "Projectile speed",
-        "min":  190,
+        "min":  280,
         "max":  5200,
-        "median":  433
+        "median":  500
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Impact",
-        "min":  89,
+        "min":  50,
         "max":  300,
-        "median":  145
+        "median":  200
     },
     {
         "name":  "Boar",
         "type":  "negative",
         "effect":  "Impact",
         "min":  199,
-        "max":  19900,
-        "median":  1400
+        "max":  22500,
+        "median":  1500
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Magazine Capacity",
-        "min":  40,
-        "max":  1500,
-        "median":  125
+        "min":  49,
+        "max":  1200,
+        "median":  200
     },
     {
         "name":  "Boar",
         "type":  "negative",
         "effect":  "Magazine Capacity",
-        "min":  90,
-        "max":  4000,
-        "median":  650
-    },
-    {
-        "name":  "Boar",
-        "type":  "positive",
-        "effect":  "Multishot",
-        "min":  60,
-        "max":  600,
-        "median":  350
-    },
-    {
-        "name":  "Boar",
-        "type":  "positive",
-        "effect":  "Toxin",
-        "min":  79,
-        "max":  6999,
+        "min":  150,
+        "max":  3800,
         "median":  600
     },
     {
         "name":  "Boar",
         "type":  "positive",
-        "effect":  "Punch Through",
+        "effect":  "Multishot",
         "min":  50,
-        "max":  700,
-        "median":  100
+        "max":  600,
+        "median":  300
     },
     {
         "name":  "Boar",
         "type":  "positive",
-        "effect":  "Reload Speed",
-        "min":  120,
-        "max":  500,
-        "median":  150
-    },
-    {
-        "name":  "Boar",
-        "type":  "negative",
-        "effect":  "Reload Speed",
-        "min":  300,
-        "max":  15000,
-        "median":  700
-    },
-    {
-        "name":  "Boar",
-        "type":  "positive",
-        "effect":  "Slash",
+        "effect":  "Toxin",
         "min":  60,
-        "max":  4000,
+        "max":  6999,
         "median":  500
     },
     {
         "name":  "Boar",
+        "type":  "positive",
+        "effect":  "Punch Through",
+        "min":  70,
+        "max":  850,
+        "median":  300
+    },
+    {
+        "name":  "Boar",
+        "type":  "positive",
+        "effect":  "Reload Speed",
+        "min":  90,
+        "max":  1000,
+        "median":  480
+    },
+    {
+        "name":  "Boar",
+        "type":  "negative",
+        "effect":  "Reload Speed",
+        "min":  99,
+        "max":  2899,
+        "median":  400
+    },
+    {
+        "name":  "Boar",
+        "type":  "positive",
+        "effect":  "Slash",
+        "min":  100,
+        "max":  3000,
+        "median":  249
+    },
+    {
+        "name":  "Boar",
         "type":  "negative",
         "effect":  "Slash",
-        "min":  188,
+        "min":  100,
         "max":  4000,
-        "median":  888
+        "median":  550
     },
     {
         "name":  "Boar",
         "type":  "positive",
         "effect":  "Status Chance",
-        "min":  100,
+        "min":  199,
         "max":  19900,
         "median":  500
     },
@@ -1747,57 +1787,57 @@
         "name":  "Boar",
         "type":  "negative",
         "effect":  "Status Chance",
-        "min":  500,
-        "max":  3600,
+        "min":  100,
+        "max":  1000,
+        "median":  250
+    },
+    {
+        "name":  "Boar",
+        "type":  "positive",
+        "effect":  "Status Duration",
+        "min":  90,
+        "max":  3333,
+        "median":  600
+    },
+    {
+        "name":  "Boar",
+        "type":  "negative",
+        "effect":  "Status Duration",
+        "min":  100,
+        "max":  1200,
         "median":  650
     },
     {
         "name":  "Boar",
         "type":  "positive",
-        "effect":  "Status Duration",
-        "min":  50,
-        "max":  800,
-        "median":  350
-    },
-    {
-        "name":  "Boar",
-        "type":  "negative",
-        "effect":  "Status Duration",
-        "min":  300,
-        "max":  1200,
-        "median":  500
-    },
-    {
-        "name":  "Boar",
-        "type":  "positive",
         "effect":  "Weapon Recoil",
-        "min":  90,
-        "max":  800,
-        "median":  300
+        "min":  60,
+        "max":  400,
+        "median":  200
     },
     {
         "name":  "Boar",
         "type":  "negative",
         "effect":  "Weapon Recoil",
-        "min":  250,
-        "max":  5000,
-        "median":  800
+        "min":  65,
+        "max":  4600,
+        "median":  600
     },
     {
         "name":  "Paris",
         "type":  "positive",
-        "effect":  "Ammo Maximum",
-        "min":  30,
-        "max":  260,
-        "median":  80
-    },
-    {
-        "name":  "Paris",
-        "type":  "negative",
         "effect":  "Ammo Maximum",
         "min":  25,
-        "max":  3500,
-        "median":  433
+        "max":  850,
+        "median":  60
+    },
+    {
+        "name":  "Paris",
+        "type":  "negative",
+        "effect":  "Ammo Maximum",
+        "min":  433,
+        "max":  6300,
+        "median":  2000
     },
     {
         "name":  "Paris",
@@ -1811,55 +1851,55 @@
         "name":  "Paris",
         "type":  "positive",
         "effect":  "Damage to Grineer",
-        "min":  25,
-        "max":  433,
-        "median":  125
+        "min":  40,
+        "max":  1200,
+        "median":  200
     },
     {
         "name":  "Paris",
         "type":  "positive",
         "effect":  "Damage to Infested",
-        "min":  59,
-        "max":  400,
-        "median":  60
+        "min":  215,
+        "max":  250,
+        "median":  215
     },
     {
         "name":  "Paris",
         "type":  "negative",
         "effect":  "Damage to Infested",
-        "min":  1300,
-        "max":  1888,
-        "median":  1300
+        "min":  100,
+        "max":  4400,
+        "median":  1400
     },
     {
         "name":  "Paris",
         "type":  "positive",
         "effect":  "Cold",
         "min":  45,
-        "max":  300,
+        "max":  1800,
         "median":  108
     },
     {
         "name":  "Paris",
         "type":  "positive",
         "effect":  "Critical Chance",
-        "min":  60,
-        "max":  9900,
-        "median":  600
+        "min":  29,
+        "max":  25000,
+        "median":  700
     },
     {
         "name":  "Paris",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  55,
-        "max":  5000,
-        "median":  370
+        "min":  65,
+        "max":  25000,
+        "median":  450
     },
     {
         "name":  "Paris",
         "type":  "positive",
         "effect":  "Damage",
-        "min":  30,
+        "min":  25,
         "max":  5000,
         "median":  500
     },
@@ -1867,15 +1907,15 @@
         "name":  "Paris",
         "type":  "positive",
         "effect":  "Electricity",
-        "min":  80,
-        "max":  5000,
-        "median":  1888
+        "min":  33,
+        "max":  1888,
+        "median":  150
     },
     {
         "name":  "Paris",
         "type":  "positive",
         "effect":  "Heat",
-        "min":  35,
+        "min":  40,
         "max":  2000,
         "median":  100
     },
@@ -1883,137 +1923,169 @@
         "name":  "Paris",
         "type":  "positive",
         "effect":  "Fire Rate / Attack Speed",
-        "min":  60,
+        "min":  70,
         "max":  9900,
-        "median":  800
-    },
-    {
-        "name":  "Paris",
-        "type":  "positive",
-        "effect":  "Projectile speed",
-        "min":  35,
-        "max":  300,
-        "median":  40
-    },
-    {
-        "name":  "Paris",
-        "type":  "negative",
-        "effect":  "Projectile speed",
-        "min":  50,
-        "max":  3000,
-        "median":  800
-    },
-    {
-        "name":  "Paris",
-        "type":  "negative",
-        "effect":  "Magazine Capacity",
-        "min":  800,
-        "max":  800,
-        "median":  800
-    },
-    {
-        "name":  "Paris",
-        "type":  "positive",
-        "effect":  "Multishot",
-        "min":  25,
-        "max":  9900,
-        "median":  800
-    },
-    {
-        "name":  "Paris",
-        "type":  "positive",
-        "effect":  "Toxin",
-        "min":  35,
-        "max":  1200,
-        "median":  300
-    },
-    {
-        "name":  "Paris",
-        "type":  "positive",
-        "effect":  "Punch Through",
-        "min":  35,
-        "max":  800,
-        "median":  50
-    },
-    {
-        "name":  "Paris",
-        "type":  "positive",
-        "effect":  "Puncture",
-        "min":  100,
-        "max":  370,
-        "median":  350
-    },
-    {
-        "name":  "Paris",
-        "type":  "negative",
-        "effect":  "Puncture",
-        "min":  350,
-        "max":  9900,
-        "median":  2000
-    },
-    {
-        "name":  "Paris",
-        "type":  "negative",
-        "effect":  "Reload Speed",
-        "min":  300,
-        "max":  900,
         "median":  600
     },
     {
         "name":  "Paris",
         "type":  "positive",
-        "effect":  "Status Chance",
-        "min":  45,
-        "max":  4000,
-        "median":  1300
+        "effect":  "Projectile speed",
+        "min":  99,
+        "max":  680,
+        "median":  99
+    },
+    {
+        "name":  "Paris",
+        "type":  "negative",
+        "effect":  "Projectile speed",
+        "min":  800,
+        "max":  2000,
+        "median":  1999
     },
     {
         "name":  "Paris",
         "type":  "positive",
-        "effect":  "Status Duration",
+        "effect":  "Magazine Capacity",
         "min":  40,
-        "max":  350,
-        "median":  55
-    },
-    {
-        "name":  "Paris",
-        "type":  "negative",
-        "effect":  "Status Duration",
-        "min":  350,
-        "max":  1000,
-        "median":  700
-    },
-    {
-        "name":  "Paris",
-        "type":  "negative",
-        "effect":  "Weapon Recoil",
-        "min":  60,
-        "max":  5000,
-        "median":  125
-    },
-    {
-        "name":  "Paris",
-        "type":  "positive",
-        "effect":  "Zoom",
-        "min":  50,
-        "max":  108,
+        "max":  699,
         "median":  100
     },
     {
         "name":  "Paris",
         "type":  "negative",
-        "effect":  "Zoom",
-        "min":  45,
-        "max":  5000,
-        "median":  215
+        "effect":  "Magazine Capacity",
+        "min":  29,
+        "max":  850,
+        "median":  250
     },
     {
-        "name":  "Boltor",
+        "name":  "Paris",
         "type":  "positive",
-        "effect":  "Ammo Maximum",
+        "effect":  "Multishot",
+        "min":  33,
+        "max":  9900,
+        "median":  700
+    },
+    {
+        "name":  "Paris",
+        "type":  "negative",
+        "effect":  "Multishot",
         "min":  40,
-        "max":  400,
-        "median":  125
+        "max":  100,
+        "median":  40
+    },
+    {
+        "name":  "Paris",
+        "type":  "positive",
+        "effect":  "Toxin",
+        "min":  100,
+        "max":  1200,
+        "median":  700
+    },
+    {
+        "name":  "Paris",
+        "type":  "positive",
+        "effect":  "Punch Through",
+        "min":  25,
+        "max":  800,
+        "median":  250
+    },
+    {
+        "name":  "Paris",
+        "type":  "positive",
+        "effect":  "Puncture",
+        "min":  25,
+        "max":  2000,
+        "median":  33
+    },
+    {
+        "name":  "Paris",
+        "type":  "negative",
+        "effect":  "Puncture",
+        "min":  600,
+        "max":  9900,
+        "median":  800
+    },
+    {
+        "name":  "Paris",
+        "type":  "positive",
+        "effect":  "Reload Speed",
+        "min":  60,
+        "max":  1800,
+        "median":  200
+    },
+    {
+        "name":  "Paris",
+        "type":  "negative",
+        "effect":  "Reload Speed",
+        "min":  70,
+        "max":  2200,
+        "median":  500
+    },
+    {
+        "name":  "Paris",
+        "type":  "positive",
+        "effect":  "Status Chance",
+        "min":  40,
+        "max":  3500,
+        "median":  350
+    },
+    {
+        "name":  "Paris",
+        "type":  "negative",
+        "effect":  "Status Chance",
+        "min":  60,
+        "max":  500,
+        "median":  200
+    },
+    {
+        "name":  "Paris",
+        "type":  "positive",
+        "effect":  "Status Duration",
+        "min":  45,
+        "max":  350,
+        "median":  60
+    },
+    {
+        "name":  "Paris",
+        "type":  "negative",
+        "effect":  "Status Duration",
+        "min":  150,
+        "max":  700,
+        "median":  350
+    },
+    {
+        "name":  "Paris",
+        "type":  "positive",
+        "effect":  "Weapon Recoil",
+        "min":  29,
+        "max":  780,
+        "median":  60
+    },
+    {
+        "name":  "Paris",
+        "type":  "negative",
+        "effect":  "Weapon Recoil",
+        "min":  1300,
+        "max":  25000,
+        "median":  5000
+    },
+    {
+        "name":  "Paris",
+        "type":  "positive",
+        "effect":  "Zoom",
+        "min":  40,
+        "max":  108,
+        "median":  40
+    },
+    {
+        "name":  "Paris",
+        "type":  "negative",
+        "effect":  "Zoom",
+        "min":  33,
+        "max":  2000,
+        "median":  215
     },
     {
         "name":  "Boltor",
@@ -2021,71 +2093,79 @@
         "effect":  "Ammo Maximum",
         "min":  300,
         "max":  2450,
-        "median":  999
+        "median":  975
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Damage to Corpus",
-        "min":  100,
-        "max":  1100,
-        "median":  250
+        "min":  90,
+        "max":  300,
+        "median":  200
     },
     {
         "name":  "Boltor",
         "type":  "negative",
         "effect":  "Damage to Corpus",
-        "min":  90,
-        "max":  1000,
-        "median":  399
+        "min":  130,
+        "max":  1200,
+        "median":  500
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Damage to Grineer",
-        "min":  40,
-        "max":  1200,
+        "min":  45,
+        "max":  650,
         "median":  300
+    },
+    {
+        "name":  "Boltor",
+        "type":  "negative",
+        "effect":  "Damage to Grineer",
+        "min":  500,
+        "max":  800,
+        "median":  500
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Damage to Infested",
         "min":  45,
-        "max":  300,
-        "median":  90
+        "max":  500,
+        "median":  125
     },
     {
         "name":  "Boltor",
         "type":  "negative",
         "effect":  "Damage to Infested",
-        "min":  1349,
-        "max":  2500,
-        "median":  1349
+        "min":  150,
+        "max":  1349,
+        "median":  499
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Cold",
-        "min":  60,
-        "max":  1100,
-        "median":  125
+        "min":  100,
+        "max":  1500,
+        "median":  200
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Critical Chance",
         "min":  100,
-        "max":  3000,
-        "median":  800
+        "max":  4000,
+        "median":  500
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  40,
+        "min":  45,
         "max":  8000,
-        "median":  750
+        "median":  500
     },
     {
         "name":  "Boltor",
@@ -2093,37 +2173,45 @@
         "effect":  "Damage",
         "min":  90,
         "max":  5000,
-        "median":  975
+        "median":  500
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Electricity",
-        "min":  45,
-        "max":  1333,
-        "median":  200
+        "min":  125,
+        "max":  2345,
+        "median":  350
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Heat",
-        "min":  199,
-        "max":  1450,
-        "median":  399
+        "min":  20,
+        "max":  750,
+        "median":  300
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Fire Rate / Attack Speed",
-        "min":  45,
-        "max":  1500,
-        "median":  800
+        "min":  50,
+        "max":  5888,
+        "median":  500
+    },
+    {
+        "name":  "Boltor",
+        "type":  "negative",
+        "effect":  "Fire Rate / Attack Speed",
+        "min":  150,
+        "max":  900,
+        "median":  167
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Projectile speed",
-        "min":  199,
+        "min":  200,
         "max":  700,
         "median":  200
     },
@@ -2132,40 +2220,48 @@
         "type":  "negative",
         "effect":  "Projectile speed",
         "min":  170,
-        "max":  2999,
-        "median":  800
+        "max":  1500,
+        "median":  299
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Magazine Capacity",
-        "min":  88,
-        "max":  125,
-        "median":  88
+        "min":  125,
+        "max":  750,
+        "median":  200
     },
     {
         "name":  "Boltor",
         "type":  "negative",
         "effect":  "Magazine Capacity",
-        "min":  125,
-        "max":  1199,
+        "min":  45,
+        "max":  3500,
         "median":  500
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Multishot",
-        "min":  60,
+        "min":  20,
         "max":  9900,
-        "median":  999
+        "median":  900
+    },
+    {
+        "name":  "Boltor",
+        "type":  "negative",
+        "effect":  "Multishot",
+        "min":  198,
+        "max":  250,
+        "median":  198
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Toxin",
-        "min":  45,
+        "min":  30,
         "max":  8000,
-        "median":  1000
+        "median":  700
     },
     {
         "name":  "Boltor",
@@ -2173,29 +2269,37 @@
         "effect":  "Punch Through",
         "min":  100,
         "max":  9900,
-        "median":  199
+        "median":  400
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Puncture",
-        "min":  40,
-        "max":  1000,
+        "min":  30,
+        "max":  1200,
         "median":  170
     },
     {
         "name":  "Boltor",
         "type":  "negative",
         "effect":  "Puncture",
-        "min":  400,
+        "min":  200,
         "max":  9900,
-        "median":  1100
+        "median":  1588
+    },
+    {
+        "name":  "Boltor",
+        "type":  "positive",
+        "effect":  "Reload Speed",
+        "min":  100,
+        "max":  500,
+        "median":  300
     },
     {
         "name":  "Boltor",
         "type":  "negative",
         "effect":  "Reload Speed",
-        "min":  100,
+        "min":  30,
         "max":  1000,
         "median":  100
     },
@@ -2203,15 +2307,15 @@
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Status Chance",
-        "min":  290,
-        "max":  2000,
-        "median":  300
+        "min":  250,
+        "max":  2500,
+        "median":  600
     },
     {
         "name":  "Boltor",
         "type":  "negative",
         "effect":  "Status Chance",
-        "min":  199,
+        "min":  125,
         "max":  500,
         "median":  199
     },
@@ -2219,105 +2323,113 @@
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Status Duration",
-        "min":  40,
-        "max":  120,
-        "median":  40
-    },
-    {
-        "name":  "Boltor",
-        "type":  "negative",
-        "effect":  "Status Duration",
-        "min":  200,
+        "min":  110,
         "max":  300,
         "median":  200
     },
     {
         "name":  "Boltor",
+        "type":  "negative",
+        "effect":  "Status Duration",
+        "min":  90,
+        "max":  300,
+        "median":  300
+    },
+    {
+        "name":  "Boltor",
         "type":  "positive",
         "effect":  "Weapon Recoil",
-        "min":  200,
+        "min":  100,
         "max":  400,
-        "median":  200
+        "median":  150
     },
     {
         "name":  "Boltor",
         "type":  "negative",
         "effect":  "Weapon Recoil",
-        "min":  200,
-        "max":  1500,
-        "median":  699
+        "min":  299,
+        "max":  7000,
+        "median":  500
     },
     {
         "name":  "Boltor",
         "type":  "positive",
         "effect":  "Zoom",
-        "min":  40,
+        "min":  20,
         "max":  250,
-        "median":  45
+        "median":  50
     },
     {
         "name":  "Boltor",
         "type":  "negative",
         "effect":  "Zoom",
-        "min":  199,
-        "max":  3000,
-        "median":  700
+        "min":  200,
+        "max":  4000,
+        "median":  750
+    },
+    {
+        "name":  "Paracyst",
+        "type":  "positive",
+        "effect":  "Ammo Maximum",
+        "min":  15,
+        "max":  70,
+        "median":  20
+    },
+    {
+        "name":  "Paracyst",
+        "type":  "positive",
+        "effect":  "Damage to Corpus",
+        "min":  15,
+        "max":  20,
+        "median":  15
     },
     {
         "name":  "Paracyst",
         "type":  "negative",
         "effect":  "Damage to Corpus",
-        "min":  30,
-        "max":  500,
-        "median":  70
+        "min":  15,
+        "max":  300,
+        "median":  15
     },
     {
         "name":  "Paracyst",
         "type":  "positive",
         "effect":  "Damage to Infested",
         "min":  15,
-        "max":  31,
+        "max":  20,
         "median":  15
-    },
-    {
-        "name":  "Paracyst",
-        "type":  "negative",
-        "effect":  "Damage to Infested",
-        "min":  30,
-        "max":  3000,
-        "median":  500
-    },
-    {
-        "name":  "Paracyst",
-        "type":  "positive",
-        "effect":  "Cold",
-        "min":  31,
-        "max":  350,
-        "median":  300
     },
     {
         "name":  "Paracyst",
         "type":  "positive",
         "effect":  "Critical Chance",
-        "min":  70,
-        "max":  3000,
-        "median":  200
+        "min":  25,
+        "max":  900,
+        "median":  250
     },
     {
         "name":  "Paracyst",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  40,
-        "max":  3000,
-        "median":  200
+        "min":  20,
+        "max":  500,
+        "median":  70
     },
     {
         "name":  "Paracyst",
         "type":  "positive",
         "effect":  "Damage",
-        "min":  20,
+        "min":  10,
         "max":  700,
-        "median":  30
+        "median":  100
+    },
+    {
+        "name":  "Paracyst",
+        "type":  "negative",
+        "effect":  "Damage",
+        "min":  15,
+        "max":  15,
+        "median":  15
     },
     {
         "name":  "Paracyst",
@@ -2325,165 +2437,181 @@
         "effect":  "Electricity",
         "min":  15,
         "max":  200,
-        "median":  31
+        "median":  25
     },
     {
         "name":  "Paracyst",
         "type":  "positive",
         "effect":  "Heat",
-        "min":  10,
-        "max":  30,
-        "median":  15
+        "min":  15,
+        "max":  20,
+        "median":  20
     },
     {
         "name":  "Paracyst",
         "type":  "positive",
         "effect":  "Fire Rate / Attack Speed",
-        "min":  40,
+        "min":  15,
         "max":  700,
-        "median":  90
+        "median":  70
     },
     {
         "name":  "Paracyst",
         "type":  "positive",
         "effect":  "Projectile speed",
-        "min":  10,
-        "max":  30,
-        "median":  10
+        "min":  20,
+        "max":  100,
+        "median":  60
+    },
+    {
+        "name":  "Paracyst",
+        "type":  "negative",
+        "effect":  "Projectile speed",
+        "min":  100,
+        "max":  250,
+        "median":  100
+    },
+    {
+        "name":  "Paracyst",
+        "type":  "negative",
+        "effect":  "Magazine Capacity",
+        "min":  30,
+        "max":  900,
+        "median":  500
     },
     {
         "name":  "Paracyst",
         "type":  "positive",
         "effect":  "Multishot",
-        "min":  60,
-        "max":  3000,
-        "median":  350
+        "min":  10,
+        "max":  900,
+        "median":  100
     },
     {
         "name":  "Paracyst",
         "type":  "positive",
         "effect":  "Toxin",
         "min":  10,
-        "max":  500,
+        "max":  100,
         "median":  30
     },
     {
         "name":  "Paracyst",
         "type":  "positive",
         "effect":  "Reload Speed",
-        "min":  10,
-        "max":  20,
-        "median":  10
-    },
-    {
-        "name":  "Paracyst",
-        "type":  "negative",
-        "effect":  "Reload Speed",
-        "min":  80,
-        "max":  200,
-        "median":  80
+        "min":  25,
+        "max":  80,
+        "median":  25
     },
     {
         "name":  "Paracyst",
         "type":  "positive",
         "effect":  "Status Chance",
-        "min":  30,
-        "max":  200,
+        "min":  15,
+        "max":  900,
         "median":  30
     },
     {
         "name":  "Paracyst",
         "type":  "positive",
-        "effect":  "Status Duration",
-        "min":  20,
+        "effect":  "Weapon Recoil",
+        "min":  15,
+        "max":  600,
+        "median":  15
+    },
+    {
+        "name":  "Paracyst",
+        "type":  "positive",
+        "effect":  "Zoom",
+        "min":  10,
         "max":  650,
-        "median":  70
+        "median":  10
     },
     {
         "name":  "Paracyst",
         "type":  "negative",
-        "effect":  "Weapon Recoil",
-        "min":  18,
-        "max":  700,
-        "median":  18
+        "effect":  "Zoom",
+        "min":  25,
+        "max":  68,
+        "median":  25
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Ammo Maximum",
-        "min":  170,
-        "max":  1500,
-        "median":  200
+        "min":  200,
+        "max":  2000,
+        "median":  800
     },
     {
         "name":  "Burston",
         "type":  "negative",
         "effect":  "Ammo Maximum",
-        "min":  500,
-        "max":  7500,
-        "median":  1099
+        "min":  200,
+        "max":  5000,
+        "median":  1200
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Damage to Corpus",
-        "min":  165,
-        "max":  800,
+        "min":  210,
+        "max":  1000,
         "median":  500
     },
     {
         "name":  "Burston",
         "type":  "negative",
         "effect":  "Damage to Corpus",
-        "min":  225,
-        "max":  3666,
-        "median":  499
-    },
-    {
-        "name":  "Burston",
-        "type":  "positive",
-        "effect":  "Damage to Grineer",
-        "min":  180,
-        "max":  1400,
-        "median":  900
-    },
-    {
-        "name":  "Burston",
-        "type":  "negative",
-        "effect":  "Damage to Grineer",
-        "min":  225,
-        "max":  2900,
-        "median":  899
-    },
-    {
-        "name":  "Burston",
-        "type":  "positive",
-        "effect":  "Damage to Infested",
-        "min":  400,
-        "max":  1000,
-        "median":  666
-    },
-    {
-        "name":  "Burston",
-        "type":  "negative",
-        "effect":  "Damage to Infested",
-        "min":  165,
-        "max":  7000,
+        "min":  200,
+        "max":  1500,
         "median":  450
     },
     {
         "name":  "Burston",
         "type":  "positive",
-        "effect":  "Cold",
+        "effect":  "Damage to Grineer",
         "min":  180,
-        "max":  2500,
-        "median":  700
+        "max":  1500,
+        "median":  1000
+    },
+    {
+        "name":  "Burston",
+        "type":  "negative",
+        "effect":  "Damage to Grineer",
+        "min":  279,
+        "max":  1111,
+        "median":  800
+    },
+    {
+        "name":  "Burston",
+        "type":  "positive",
+        "effect":  "Damage to Infested",
+        "min":  190,
+        "max":  1000,
+        "median":  200
+    },
+    {
+        "name":  "Burston",
+        "type":  "negative",
+        "effect":  "Damage to Infested",
+        "min":  260,
+        "max":  7000,
+        "median":  1000
+    },
+    {
+        "name":  "Burston",
+        "type":  "positive",
+        "effect":  "Cold",
+        "min":  179,
+        "max":  1600,
+        "median":  350
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Critical Chance",
-        "min":  178,
+        "min":  175,
         "max":  800,
         "median":  500
     },
@@ -2491,89 +2619,105 @@
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  170,
-        "max":  750,
+        "min":  200,
+        "max":  799,
         "median":  450
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Damage",
-        "min":  169,
+        "min":  165,
         "max":  3000,
-        "median":  650
+        "median":  800
+    },
+    {
+        "name":  "Burston",
+        "type":  "negative",
+        "effect":  "Damage",
+        "min":  200,
+        "max":  2000,
+        "median":  200
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Electricity",
-        "min":  169,
-        "max":  7500,
+        "min":  200,
+        "max":  4000,
         "median":  900
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Heat",
-        "min":  170,
+        "min":  200,
         "max":  5000,
-        "median":  700
+        "median":  950
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Fire Rate / Attack Speed",
-        "min":  165,
+        "min":  200,
         "max":  19900,
-        "median":  650
+        "median":  800
     },
     {
         "name":  "Burston",
         "type":  "negative",
         "effect":  "Fire Rate / Attack Speed",
         "min":  180,
-        "max":  2400,
-        "median":  600
+        "max":  6400,
+        "median":  650
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Impact",
-        "min":  249,
-        "max":  800,
-        "median":  280
+        "min":  225,
+        "max":  1400,
+        "median":  400
     },
     {
         "name":  "Burston",
         "type":  "negative",
         "effect":  "Impact",
-        "min":  170,
-        "max":  5000,
-        "median":  1288
+        "min":  200,
+        "max":  16500,
+        "median":  1500
     },
     {
         "name":  "Burston",
         "type":  "positive",
-        "effect":  "Magazine Capacity",
-        "min":  300,
-        "max":  900,
-        "median":  550
-    },
-    {
-        "name":  "Burston",
-        "type":  "negative",
         "effect":  "Magazine Capacity",
         "min":  200,
-        "max":  8300,
-        "median":  600
+        "max":  1200,
+        "median":  300
+    },
+    {
+        "name":  "Burston",
+        "type":  "negative",
+        "effect":  "Magazine Capacity",
+        "min":  175,
+        "max":  12000,
+        "median":  900
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Multishot",
         "min":  178,
-        "max":  950,
+        "max":  999,
         "median":  500
+    },
+    {
+        "name":  "Burston",
+        "type":  "negative",
+        "effect":  "Multishot",
+        "min":  555,
+        "max":  700,
+        "median":  666
     },
     {
         "name":  "Burston",
@@ -2581,13 +2725,13 @@
         "effect":  "Toxin",
         "min":  178,
         "max":  4200,
-        "median":  600
+        "median":  999
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Punch Through",
-        "min":  200,
+        "min":  165,
         "max":  2399,
         "median":  450
     },
@@ -2595,40 +2739,40 @@
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Puncture",
-        "min":  178,
-        "max":  1000,
-        "median":  350
+        "min":  175,
+        "max":  500,
+        "median":  200
     },
     {
         "name":  "Burston",
         "type":  "negative",
         "effect":  "Puncture",
-        "min":  149,
+        "min":  350,
         "max":  11200,
-        "median":  1000
+        "median":  999
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Reload Speed",
-        "min":  700,
+        "min":  200,
         "max":  1000,
-        "median":  900
+        "median":  500
     },
     {
         "name":  "Burston",
         "type":  "negative",
         "effect":  "Reload Speed",
-        "min":  280,
+        "min":  450,
         "max":  5499,
-        "median":  600
+        "median":  500
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Slash",
-        "min":  300,
-        "max":  3000,
+        "min":  250,
+        "max":  900,
         "median":  400
     },
     {
@@ -2636,152 +2780,160 @@
         "type":  "negative",
         "effect":  "Slash",
         "min":  300,
-        "max":  12000,
-        "median":  650
-    },
-    {
-        "name":  "Burston",
-        "type":  "positive",
-        "effect":  "Status Chance",
-        "min":  149,
-        "max":  1800,
-        "median":  690
-    },
-    {
-        "name":  "Burston",
-        "type":  "negative",
-        "effect":  "Status Chance",
-        "min":  178,
-        "max":  3200,
-        "median":  800
-    },
-    {
-        "name":  "Burston",
-        "type":  "positive",
-        "effect":  "Status Duration",
-        "min":  149,
-        "max":  600,
-        "median":  450
-    },
-    {
-        "name":  "Burston",
-        "type":  "negative",
-        "effect":  "Status Duration",
-        "min":  350,
-        "max":  3300,
+        "max":  7000,
         "median":  1000
     },
     {
         "name":  "Burston",
         "type":  "positive",
+        "effect":  "Status Chance",
+        "min":  175,
+        "max":  1500,
+        "median":  600
+    },
+    {
+        "name":  "Burston",
+        "type":  "negative",
+        "effect":  "Status Chance",
+        "min":  178,
+        "max":  3888,
+        "median":  1000
+    },
+    {
+        "name":  "Burston",
+        "type":  "positive",
+        "effect":  "Status Duration",
+        "min":  450,
+        "max":  900,
+        "median":  500
+    },
+    {
+        "name":  "Burston",
+        "type":  "negative",
+        "effect":  "Status Duration",
+        "min":  250,
+        "max":  3000,
+        "median":  450
+    },
+    {
+        "name":  "Burston",
+        "type":  "positive",
         "effect":  "Weapon Recoil",
-        "min":  170,
+        "min":  200,
         "max":  1800,
-        "median":  380
+        "median":  500
     },
     {
         "name":  "Burston",
         "type":  "negative",
         "effect":  "Weapon Recoil",
-        "min":  180,
-        "max":  18590,
-        "median":  999
+        "min":  200,
+        "max":  15000,
+        "median":  1100
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Zoom",
         "min":  178,
-        "max":  1500,
-        "median":  280
+        "max":  500,
+        "median":  178
     },
     {
         "name":  "Burston",
         "type":  "negative",
         "effect":  "Zoom",
-        "min":  399,
+        "min":  200,
         "max":  19900,
-        "median":  800
+        "median":  1150
+    },
+    {
+        "name":  "Dread",
+        "type":  "positive",
+        "effect":  "Ammo Maximum",
+        "min":  100,
+        "max":  500,
+        "median":  100
     },
     {
         "name":  "Dread",
         "type":  "negative",
         "effect":  "Ammo Maximum",
-        "min":  89,
+        "min":  100,
         "max":  2300,
-        "median":  200
-    },
-    {
-        "name":  "Dread",
-        "type":  "positive",
-        "effect":  "Damage to Corpus",
-        "min":  15,
-        "max":  100,
-        "median":  29
-    },
-    {
-        "name":  "Dread",
-        "type":  "negative",
-        "effect":  "Damage to Corpus",
-        "min":  229,
-        "max":  1900,
         "median":  300
     },
     {
         "name":  "Dread",
         "type":  "positive",
+        "effect":  "Damage to Corpus",
+        "min":  100,
+        "max":  150,
+        "median":  100
+    },
+    {
+        "name":  "Dread",
+        "type":  "negative",
+        "effect":  "Damage to Corpus",
+        "min":  150,
+        "max":  3000,
+        "median":  425
+    },
+    {
+        "name":  "Dread",
+        "type":  "positive",
         "effect":  "Damage to Grineer",
-        "min":  29,
-        "max":  600,
-        "median":  80
+        "min":  28,
+        "max":  800,
+        "median":  100
     },
     {
         "name":  "Dread",
         "type":  "negative",
         "effect":  "Damage to Grineer",
-        "min":  99,
+        "min":  300,
         "max":  1500,
-        "median":  666
+        "median":  350
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Damage to Infested",
-        "min":  200,
-        "max":  950,
-        "median":  250
+        "min":  80,
+        "max":  600,
+        "median":  100
     },
     {
         "name":  "Dread",
         "type":  "negative",
         "effect":  "Damage to Infested",
-        "min":  29,
+        "min":  50,
         "max":  5500,
-        "median":  599
+        "median":  452
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Cold",
-        "min":  70,
-        "max":  1300,
-        "median":  100
+        "min":  150,
+        "max":  600,
+        "median":  150
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Critical Chance",
-        "min":  59,
-        "max":  5500,
-        "median":  666
+        "min":  40,
+        "max":  12500,
+        "median":  399
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  1,
-        "max":  3000,
-        "median":  600
+        "min":  60,
+        "max":  3500,
+        "median":  500
     },
     {
         "name":  "Dread",
@@ -2795,57 +2947,65 @@
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Damage",
-        "min":  140,
+        "min":  40,
         "max":  10000,
-        "median":  400
+        "median":  250
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Electricity",
-        "min":  200,
+        "min":  50,
         "max":  2777,
-        "median":  300
+        "median":  120
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Heat",
-        "min":  50,
+        "min":  28,
         "max":  2000,
-        "median":  200
+        "median":  150
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Fire Rate / Attack Speed",
-        "min":  28,
+        "min":  30,
         "max":  3500,
-        "median":  452
+        "median":  300
+    },
+    {
+        "name":  "Dread",
+        "type":  "negative",
+        "effect":  "Fire Rate / Attack Speed",
+        "min":  25,
+        "max":  2500,
+        "median":  50
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Projectile speed",
-        "min":  50,
+        "min":  40,
         "max":  700,
-        "median":  75
+        "median":  80
     },
     {
         "name":  "Dread",
         "type":  "negative",
         "effect":  "Projectile speed",
-        "min":  1300,
-        "max":  1500,
-        "median":  1300
+        "min":  28,
+        "max":  2000,
+        "median":  150
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Magazine Capacity",
-        "min":  75,
-        "max":  9600,
-        "median":  199
+        "min":  40,
+        "max":  100,
+        "median":  40
     },
     {
         "name":  "Dread",
@@ -2853,69 +3013,69 @@
         "effect":  "Magazine Capacity",
         "min":  59,
         "max":  10000,
-        "median":  2000
+        "median":  350
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Multishot",
-        "min":  1,
-        "max":  10000,
-        "median":  1000
+        "min":  25,
+        "max":  12500,
+        "median":  600
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Toxin",
-        "min":  15,
-        "max":  2000,
-        "median":  500
+        "min":  40,
+        "max":  3000,
+        "median":  350
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Punch Through",
-        "min":  28,
-        "max":  59,
-        "median":  50
+        "min":  50,
+        "max":  140,
+        "median":  95
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Reload Speed",
-        "min":  1,
+        "min":  150,
         "max":  3000,
-        "median":  800
+        "median":  235
     },
     {
         "name":  "Dread",
         "type":  "negative",
         "effect":  "Reload Speed",
-        "min":  199,
-        "max":  1950,
+        "min":  200,
+        "max":  1500,
         "median":  300
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Slash",
-        "min":  89,
-        "max":  600,
+        "min":  25,
+        "max":  1500,
         "median":  300
     },
     {
         "name":  "Dread",
         "type":  "negative",
         "effect":  "Slash",
-        "min":  89,
-        "max":  3000,
+        "min":  50,
+        "max":  2777,
         "median":  1000
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Status Chance",
-        "min":  140,
+        "min":  40,
         "max":  2600,
         "median":  350
     },
@@ -2923,33 +3083,33 @@
         "name":  "Dread",
         "type":  "negative",
         "effect":  "Status Chance",
-        "min":  80,
+        "min":  50,
         "max":  1500,
-        "median":  350
+        "median":  300
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Status Duration",
-        "min":  89,
-        "max":  1500,
-        "median":  199
+        "min":  30,
+        "max":  3000,
+        "median":  60
     },
     {
         "name":  "Dread",
         "type":  "negative",
         "effect":  "Status Duration",
-        "min":  15,
-        "max":  600,
-        "median":  200
+        "min":  40,
+        "max":  6500,
+        "median":  150
     },
     {
         "name":  "Dread",
         "type":  "positive",
         "effect":  "Weapon Recoil",
-        "min":  15,
-        "max":  300,
-        "median":  28
+        "min":  28,
+        "max":  450,
+        "median":  59
     },
     {
         "name":  "Dread",
@@ -2957,183 +3117,231 @@
         "effect":  "Weapon Recoil",
         "min":  50,
         "max":  3500,
-        "median":  400
+        "median":  500
+    },
+    {
+        "name":  "Dread",
+        "type":  "positive",
+        "effect":  "Zoom",
+        "min":  50,
+        "max":  800,
+        "median":  250
     },
     {
         "name":  "Dread",
         "type":  "negative",
         "effect":  "Zoom",
-        "min":  1,
-        "max":  9600,
-        "median":  500
+        "min":  100,
+        "max":  12500,
+        "median":  1500
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Ammo Maximum",
-        "min":  40,
-        "max":  200,
+        "min":  20,
+        "max":  550,
         "median":  50
+    },
+    {
+        "name":  "Gorgon",
+        "type":  "negative",
+        "effect":  "Ammo Maximum",
+        "min":  70,
+        "max":  300,
+        "median":  100
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Damage to Corpus",
-        "min":  50,
-        "max":  75,
+        "min":  15,
+        "max":  500,
         "median":  50
+    },
+    {
+        "name":  "Gorgon",
+        "type":  "negative",
+        "effect":  "Damage to Corpus",
+        "min":  2000,
+        "max":  5000,
+        "median":  2000
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Damage to Grineer",
         "min":  10,
-        "max":  500,
-        "median":  10
+        "max":  18,
+        "median":  15
+    },
+    {
+        "name":  "Gorgon",
+        "type":  "negative",
+        "effect":  "Damage to Grineer",
+        "min":  650,
+        "max":  800,
+        "median":  650
+    },
+    {
+        "name":  "Gorgon",
+        "type":  "positive",
+        "effect":  "Damage to Infested",
+        "min":  30,
+        "max":  200,
+        "median":  40
     },
     {
         "name":  "Gorgon",
         "type":  "negative",
         "effect":  "Damage to Infested",
-        "min":  350,
-        "max":  1600,
-        "median":  350
+        "min":  50,
+        "max":  350,
+        "median":  50
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Cold",
-        "min":  15,
-        "max":  2500,
+        "min":  20,
+        "max":  1250,
         "median":  100
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Critical Chance",
-        "min":  70,
-        "max":  10000,
+        "min":  19,
+        "max":  9900,
         "median":  200
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  32,
+        "min":  15,
         "max":  6400,
-        "median":  500
+        "median":  300
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Damage",
-        "min":  50,
-        "max":  10000,
-        "median":  250
+        "min":  20,
+        "max":  2000,
+        "median":  185
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Electricity",
         "min":  10,
-        "max":  1600,
-        "median":  60
+        "max":  150,
+        "median":  50
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Heat",
         "min":  40,
-        "max":  150,
-        "median":  70
+        "max":  1500,
+        "median":  150
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Fire Rate / Attack Speed",
         "min":  50,
-        "max":  1499,
-        "median":  100
+        "max":  1500,
+        "median":  150
     },
     {
         "name":  "Gorgon",
         "type":  "negative",
         "effect":  "Fire Rate / Attack Speed",
-        "min":  850,
-        "max":  2499,
-        "median":  850
+        "min":  40,
+        "max":  1500,
+        "median":  150
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Impact",
-        "min":  30,
-        "max":  198,
-        "median":  30
+        "min":  50,
+        "max":  185,
+        "median":  100
     },
     {
         "name":  "Gorgon",
         "type":  "negative",
         "effect":  "Impact",
         "min":  69,
-        "max":  10000,
-        "median":  750
+        "max":  6000,
+        "median":  400
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Magazine Capacity",
-        "min":  69,
+        "min":  50,
         "max":  1200,
-        "median":  80
+        "median":  69
     },
     {
         "name":  "Gorgon",
         "type":  "negative",
         "effect":  "Magazine Capacity",
-        "min":  1250,
-        "max":  2888,
-        "median":  1499
+        "min":  20,
+        "max":  1250,
+        "median":  400
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Multishot",
         "min":  15,
-        "max":  10000,
-        "median":  850
+        "max":  9900,
+        "median":  400
     },
     {
         "name":  "Gorgon",
         "type":  "negative",
         "effect":  "Multishot",
-        "min":  40,
-        "max":  80,
+        "min":  19,
+        "max":  150,
         "median":  40
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Toxin",
-        "min":  40,
-        "max":  2000,
-        "median":  100
+        "min":  19,
+        "max":  150,
+        "median":  69
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Punch Through",
-        "min":  32,
+        "min":  15,
         "max":  9900,
-        "median":  120
+        "median":  18
+    },
+    {
+        "name":  "Gorgon",
+        "type":  "positive",
+        "effect":  "Reload Speed",
+        "min":  20,
+        "max":  400,
+        "median":  46
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Status Chance",
-        "min":  75,
+        "min":  19,
         "max":  6000,
-        "median":  198
+        "median":  50
     },
     {
         "name":  "Gorgon",
@@ -3141,38 +3349,38 @@
         "effect":  "Status Duration",
         "min":  10,
         "max":  3000,
-        "median":  10
+        "median":  75
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Weapon Recoil",
-        "min":  30,
-        "max":  300,
-        "median":  50
+        "min":  20,
+        "max":  50,
+        "median":  30
     },
     {
         "name":  "Gorgon",
         "type":  "negative",
         "effect":  "Weapon Recoil",
-        "min":  70,
+        "min":  20,
         "max":  6400,
-        "median":  2000
+        "median":  150
     },
     {
         "name":  "Gorgon",
         "type":  "positive",
         "effect":  "Zoom",
-        "min":  50,
-        "max":  70,
-        "median":  50
+        "min":  20,
+        "max":  50,
+        "median":  40
     },
     {
         "name":  "Gorgon",
         "type":  "negative",
         "effect":  "Zoom",
-        "min":  75,
+        "min":  200,
         "max":  9900,
-        "median":  250
+        "median":  550
     }
 ]
