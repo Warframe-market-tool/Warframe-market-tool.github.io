@@ -3,15 +3,15 @@
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Damage to Corpus",
-        "min":  250,
-        "max":  2999,
-        "median":  360
+        "min":  100,
+        "max":  20000,
+        "median":  500
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Damage to Grineer",
-        "min":  80,
+        "min":  150,
         "max":  1800,
         "median":  500
     },
@@ -19,160 +19,200 @@
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Damage to Grineer",
-        "min":  100,
-        "max":  800,
-        "median":  400
+        "min":  120,
+        "max":  1000,
+        "median":  200
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Damage to Infested",
         "min":  69,
-        "max":  800,
-        "median":  70
+        "max":  350,
+        "median":  200
     },
     {
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Damage to Infested",
-        "min":  300,
-        "max":  4999,
-        "median":  750
-    },
-    {
-        "name":  "Hate",
-        "type":  "positive",
-        "effect":  "Cold",
-        "min":  180,
-        "max":  2666,
-        "median":  600
-    },
-    {
-        "name":  "Hate",
-        "type":  "positive",
-        "effect":  "Initial combo",
-        "min":  180,
-        "max":  5999,
-        "median":  800
-    },
-    {
-        "name":  "Hate",
-        "type":  "positive",
-        "effect":  "Heavy Attack Efficiency",
-        "min":  69,
-        "max":  10000,
-        "median":  599
-    },
-    {
-        "name":  "Hate",
-        "type":  "negative",
-        "effect":  "Heavy Attack Efficiency",
-        "min":  100,
-        "max":  2999,
-        "median":  800
-    },
-    {
-        "name":  "Hate",
-        "type":  "positive",
-        "effect":  "Combo Duration",
-        "min":  100,
-        "max":  999,
-        "median":  130
-    },
-    {
-        "name":  "Hate",
-        "type":  "negative",
-        "effect":  "Combo Duration",
-        "min":  300,
-        "max":  6000,
+        "min":  150,
+        "max":  2700,
         "median":  900
     },
     {
         "name":  "Hate",
         "type":  "positive",
+        "effect":  "Cold",
+        "min":  65,
+        "max":  1888,
+        "median":  550
+    },
+    {
+        "name":  "Hate",
+        "type":  "positive",
+        "effect":  "Initial combo",
+        "min":  90,
+        "max":  3000,
+        "median":  650
+    },
+    {
+        "name":  "Hate",
+        "type":  "positive",
+        "effect":  "Heavy Attack Efficiency",
+        "min":  69,
+        "max":  3500,
+        "median":  600
+    },
+    {
+        "name":  "Hate",
+        "type":  "negative",
+        "effect":  "Heavy Attack Efficiency",
+        "min":  180,
+        "max":  20000,
+        "median":  900
+    },
+    {
+        "name":  "Hate",
+        "type":  "positive",
+        "effect":  "Combo Duration",
+        "min":  65,
+        "max":  2000,
+        "median":  180
+    },
+    {
+        "name":  "Hate",
+        "type":  "negative",
+        "effect":  "Combo Duration",
+        "min":  300,
+        "max":  4000,
+        "median":  1000
+    },
+    {
+        "name":  "Hate",
+        "type":  "positive",
         "effect":  "Critical Chance",
-        "min":  100,
-        "max":  1000,
-        "median":  500
+        "min":  70,
+        "max":  1100,
+        "median":  550
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Critical Chance for Slide Attack",
-        "min":  197,
-        "max":  800,
-        "median":  200
+        "min":  88,
+        "max":  900,
+        "median":  100
     },
     {
         "name":  "Hate",
         "type":  "negative",
         "effect":  "Critical Chance for Slide Attack",
-        "min":  111,
-        "max":  9500,
-        "median":  1100
+        "min":  150,
+        "max":  888888,
+        "median":  1500
     },
     {
         "name":  "Hate",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  80,
+        "min":  150,
         "max":  2000,
-        "median":  599
+        "median":  800
+    },
+    {
+        "name":  "Latron",
+        "type":  "negative",
+        "effect":  "Weapon Recoil",
+        "min":  220,
+        "max":  4000,
+        "median":  1000
+    },
+    {
+        "name":  "Latron",
+        "type":  "positive",
+        "effect":  "Zoom",
+        "min":  137,
+        "max":  300,
+        "median":  149
+    },
+    {
+        "name":  "Latron",
+        "type":  "negative",
+        "effect":  "Zoom",
+        "min":  110,
+        "max":  888888,
+        "median":  1500
     },
     {
         "name":  "Phage",
         "type":  "positive",
-        "effect":  "Damage to Corpus",
-        "min":  15,
-        "max":  30,
-        "median":  15
+        "effect":  "Ammo Maximum",
+        "min":  14,
+        "max":  400,
+        "median":  200
     },
     {
         "name":  "Phage",
         "type":  "negative",
-        "effect":  "Damage to Corpus",
-        "min":  250,
-        "max":  290,
-        "median":  250
-    },
-    {
-        "name":  "Phage",
-        "type":  "positive",
-        "effect":  "Damage to Grineer",
+        "effect":  "Ammo Maximum",
         "min":  100,
-        "max":  350,
-        "median":  200
+        "max":  800,
+        "median":  500
+    },
+    {
+        "name":  "Phage",
+        "type":  "positive",
+        "effect":  "Damage to Corpus",
+        "min":  9,
+        "max":  20,
+        "median":  9
     },
     {
         "name":  "Phage",
         "type":  "negative",
-        "effect":  "Damage to Grineer",
-        "min":  20,
-        "max":  700,
+        "effect":  "Damage to Corpus",
+        "min":  200,
+        "max":  2000,
         "median":  200
     },
     {
         "name":  "Phage",
         "type":  "positive",
+        "effect":  "Damage to Grineer",
+        "min":  15,
+        "max":  300,
+        "median":  75
+    },
+    {
+        "name":  "Phage",
+        "type":  "negative",
+        "effect":  "Damage to Grineer",
+        "min":  15,
+        "max":  2250,
+        "median":  900
+    },
+    {
+        "name":  "Phage",
+        "type":  "positive",
         "effect":  "Damage to Infested",
-        "min":  20,
-        "max":  200,
-        "median":  50
+        "min":  15,
+        "max":  350,
+        "median":  20
     },
     {
         "name":  "Phage",
         "type":  "negative",
         "effect":  "Damage to Infested",
-        "min":  80,
-        "max":  2500,
-        "median":  120
+        "min":  120,
+        "max":  3000,
+        "median":  550
     },
     {
         "name":  "Phage",
         "type":  "positive",
         "effect":  "Cold",
-        "min":  90,
-        "max":  290,
+        "min":  20,
+        "max":  300,
         "median":  100
     },
     {
@@ -181,13 +221,13 @@
         "effect":  "Critical Chance",
         "min":  20,
         "max":  30000,
-        "median":  500
+        "median":  600
     },
     {
         "name":  "Phage",
         "type":  "positive",
         "effect":  "Critical Damage",
-        "min":  20,
+        "min":  15,
         "max":  30000,
         "median":  500
     },
@@ -195,72 +235,96 @@
         "name":  "Phage",
         "type":  "positive",
         "effect":  "Damage",
-        "min":  20,
-        "max":  2500,
-        "median":  150
+        "min":  30,
+        "max":  2250,
+        "median":  250
     },
     {
         "name":  "Phage",
         "type":  "positive",
         "effect":  "Electricity",
-        "min":  15,
-        "max":  1000,
-        "median":  120
-    },
-    {
-        "name":  "Phage",
-        "type":  "positive",
-        "effect":  "Heat",
-        "min":  15,
-        "max":  3000,
-        "median":  260
-    },
-    {
-        "name":  "Phage",
-        "type":  "positive",
-        "effect":  "Fire Rate / Attack Speed",
         "min":  30,
-        "max":  2500,
-        "median":  199
+        "max":  2000,
+        "median":  350
+    },
+    {
+        "name":  "Burston",
+        "type":  "positive",
+        "effect":  "Damage to Infested",
+        "min":  200,
+        "max":  2000,
+        "median":  295
+    },
+    {
+        "name":  "Burston",
+        "type":  "negative",
+        "effect":  "Damage to Infested",
+        "min":  195,
+        "max":  7500,
+        "median":  700
+    },
+    {
+        "name":  "Burston",
+        "type":  "positive",
+        "effect":  "Cold",
+        "min":  190,
+        "max":  1700,
+        "median":  528
     },
     {
         "name":  "Burston",
         "type":  "positive",
         "effect":  "Critical Chance",
-        "min":  180,
+        "min":  195,
         "max":  800,
-        "median":  499
-    },
-    {
-        "name":  "Burston",
-        "type":  "positive",
-        "effect":  "Critical Damage",
-        "min":  200,
-        "max":  700,
         "median":  500
     },
     {
         "name":  "Burston",
         "type":  "positive",
-        "effect":  "Damage",
-        "min":  175,
-        "max":  2100,
-        "median":  650
+        "effect":  "Critical Damage",
+        "min":  195,
+        "max":  750,
+        "median":  450
     },
     {
         "name":  "Burston",
         "type":  "positive",
-        "effect":  "Electricity",
-        "min":  175,
-        "max":  3000,
+        "effect":  "Damage",
+        "min":  195,
+        "max":  2500,
         "median":  800
     },
     {
         "name":  "Burston",
         "type":  "positive",
+        "effect":  "Electricity",
+        "min":  200,
+        "max":  3000,
+        "median":  900
+    },
+    {
+        "name":  "Burston",
+        "type":  "positive",
         "effect":  "Heat",
-        "min":  175,
+        "min":  250,
         "max":  5000,
-        "median":  600
+        "median":  700
+    },
+    {
+        "name":  "Burston",
+        "type":  "positive",
+        "effect":  "Fire Rate / Attack Speed",
+        "min":  300,
+        "max":  2888,
+        "median":  900
+    },
+    {
+        "name":  "Burston",
+        "type":  "negative",
+        "effect":  "Fire Rate / Attack Speed",
+        "min":  550,
+        "max":  650,
+        "median":  550
     }
 ]
